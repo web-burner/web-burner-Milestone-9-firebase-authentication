@@ -4,6 +4,7 @@ import { Link } from "react-router";
 // import { toast } from "react-toastify";
 import { use } from "react";
 import { AuthContext } from "../../Context/authContext/AuthContext";
+import { toast } from "react-toastify";
 const Register = () => {
   const {createUser}=use(AuthContext)
   const handleRegister = (e)=>{
@@ -11,6 +12,11 @@ const Register = () => {
     const email = e.target.email.value;
     const password = e.target.password.value;
     createUser(email,password)
+    .then((result) => {
+            console.log(result.user)
+            toast('Account Created Successfully!')
+          })
+          .catch((error) => console.error(error));
 
   }
   // const handleRegister = (e) => {

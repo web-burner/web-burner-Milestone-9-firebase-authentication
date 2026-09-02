@@ -1,10 +1,41 @@
-import { Link } from "react-router";
+import { use } from "react";
+import { Link, useLocation, useNavigate } from "react-router";
+import { AuthContext } from "../../Context/authContext/AuthContext";
+import { toast } from "react-toastify";
+// import { onAuthStateChanged } from "firebase/auth";
+// import { auth } from "../../firebase-auth/firebase.info";
 
 const Login = () => {
+  const { signInUser, signInWithGoogle } = use(AuthContext);
+  const location = useLocation();
+  const navigate = useNavigate();
+  console.log(location);
   const handleLogin = (e) => {
     e.preventDefault();
     console.log("login clicked");
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+    signInUser(email, password)
+      .then((result) => {
+        console.log(result.user);
+        toast("user login successfully");
+        navigate(location.state || "/");
+        // loading(false);
+      })
+      .catch((error) => console.log(error));
+    e.target.reset();
   };
+  
+
+  const handleGoogleSignIn = () => {
+    signInWithGoogle()
+      .then((result) => {
+        console.log(result.user);
+        navigate(location?.state || "/");
+      })
+      .catch((error) => console.log(error));
+  };
+
   return (
     <div className="hero py-20">
       <div className="hero-content flex-col w-100">
@@ -39,6 +70,9 @@ const Login = () => {
               Register Now
             </Link>
           </form>
+          <button className="btn btn-neutral mt-4" onClick={handleGoogleSignIn}>
+            Sign In With Google
+          </button>
         </div>
       </div>
     </div>
