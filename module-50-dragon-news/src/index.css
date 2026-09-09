@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@plugin "daisyui" {
+  themes: light --default;
+}
+.categories a{
+  @apply bg-base-100
+}
+.categories a.active{
+  @apply bg-gray-400
+}
