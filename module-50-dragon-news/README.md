@@ -6,4 +6,9 @@
 6. make header and nav user friendly 
 7. display logo time and nav link
 8. use daisyui them to display light mode and dark mode 
-9. 
+9. customize theme 
+10. import google fonts 
+11. integrate date fns 
+12. use marquee to how headlines 
+13. implement navbar 
+14. create 3 component leftAside , content and rightAside 
