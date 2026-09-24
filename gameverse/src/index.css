@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+ @plugin "daisyui" {
+   themes: light --default;
+ }
+
+
+ nav .navlinks a{
+  @apply hover:text-violet-700
+ }
+ nav a.active{
+  @apply text-violet-700
+ }

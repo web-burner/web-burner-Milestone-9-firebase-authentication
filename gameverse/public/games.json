@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "10",
+    "title": "Counter-Strike",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/10/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/10/CounterStrike/",
+    "description": "A landmark team-based tactical shooter built around objective rounds and precise gunplay.",
+    "ratings": "4.7",
+    "developer": "Valve"
+  },
+  {
+    "id": "70",
+    "title": "Half-Life",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/70/HalfLife/",
+    "description": "A science-fiction first-person adventure following Gordon Freeman through a disastrous experiment.",
+    "ratings": "4.8",
+    "developer": "Valve"
+  },
+  {
+    "id": "220",
+    "title": "Half-Life 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/220/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/220/HalfLife_2/",
+    "description": "A cinematic sci-fi shooter about resistance, physics puzzles, and a city under alien rule.",
+    "ratings": "4.9",
+    "developer": "Valve"
+  },
+  {
+    "id": "240",
+    "title": "Counter-Strike: Source",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/240/CounterStrike_Source/",
+    "description": "A modernized Counter-Strike release powered by the Source engine.",
+    "ratings": "4.5",
+    "developer": "Valve"
+  },
+  {
+    "id": "320",
+    "title": "Half-Life 2: Deathmatch",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/320/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/320/HalfLife_2_Deathmatch/",
+    "description": "Fast multiplayer arena combat set in the Half-Life 2 universe.",
+    "ratings": "4.3",
+    "developer": "Valve"
+  },
+  {
+    "id": "400",
+    "title": "Portal",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/400/header.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://store.steampowered.com/app/400/Portal/",
+    "description": "A clever first-person puzzle game built around a portal gun and scientific test chambers.",
+    "ratings": "4.8",
+    "developer": "Valve"
+  },
+  {
+    "id": "440",
+    "title": "Team Fortress 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/440/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/440/Team_Fortress_2/",
+    "description": "A colorful class-based multiplayer shooter with distinct characters and game modes.",
+    "ratings": "4.6",
+    "developer": "Valve"
+  },
+  {
+    "id": "500",
+    "title": "Left 4 Dead",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/500/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/500/Left_4_Dead/",
+    "description": "Four survivors fight through a co-op zombie apocalypse directed by an adaptive AI.",
+    "ratings": "4.5",
+    "developer": "Valve"
+  },
+  {
+    "id": "550",
+    "title": "Left 4 Dead 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/550/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/550/Left_4_Dead_2/",
+    "description": "A cooperative zombie shooter with campaigns, special infected, and improvised weapons.",
+    "ratings": "4.8",
+    "developer": "Valve"
+  },
+  {
+    "id": "620",
+    "title": "Portal 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://store.steampowered.com/app/620/Portal_2/",
+    "description": "A witty co-op and single-player portal puzzle adventure set in Aperture Science.",
+    "ratings": "4.9",
+    "developer": "Valve"
+  },
+  {
+    "id": "730",
+    "title": "Counter-Strike 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/730/CounterStrike_2/",
+    "description": "Valve's competitive tactical shooter with updated systems and global matchmaking.",
+    "ratings": "4.5",
+    "developer": "Valve"
+  },
+  {
+    "id": "105600",
+    "title": "Terraria",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://store.steampowered.com/app/105600/Terraria/",
+    "description": "A 2D sandbox adventure focused on exploration, building, crafting, and boss battles.",
+    "ratings": "4.8",
+    "developer": "Re-Logic"
+  },
+  {
+    "id": "200210",
+    "title": "Realm of the Mad God Exalt",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/200210/header.jpg",
+    "category": "MMORPG",
+    "downloadLink": "https://store.steampowered.com/app/200210/Realm_of_the_Mad_God_Exalt/",
+    "description": "A cooperative bullet-hell MMO with permadeath, loot, and pixel-art dungeons.",
+    "ratings": "4.1",
+    "developer": "DECA Games"
+  },
+  {
+    "id": "203160",
+    "title": "Tomb Raider",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/203160/header.jpg",
+    "category": "Action Adventure",
+    "downloadLink": "https://store.steampowered.com/app/203160/Tomb_Raider/",
+    "description": "An origin story that follows Lara Croft's survival on a dangerous island.",
+    "ratings": "4.5",
+    "developer": "Crystal Dynamics"
+  },
+  {
+    "id": "218620",
+    "title": "PAYDAY 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/218620/header.jpg",
+    "category": "Co-op Shooter",
+    "downloadLink": "https://store.steampowered.com/app/218620/PAYDAY_2/",
+    "description": "A four-player co-op heist shooter about planning jobs and escaping with the loot.",
+    "ratings": "4.4",
+    "developer": "OVERKILL Software"
+  },
+  {
+    "id": "221100",
+    "title": "DayZ",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/221100/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/221100/DayZ/",
+    "description": "An open-world survival game where players scavenge and endure a hostile post-apocalypse.",
+    "ratings": "4.0",
+    "developer": "Bohemia Interactive"
+  },
+  {
+    "id": "225540",
+    "title": "Just Cause 3",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/225540/header.jpg",
+    "category": "Action Adventure",
+    "downloadLink": "https://store.steampowered.com/app/225540/Just_Cause_3/",
+    "description": "An explosive open-world action game built around wingsuits, grapples, and chaos.",
+    "ratings": "4.2",
+    "developer": "Avalanche Studios"
+  },
+  {
+    "id": "227300",
+    "title": "Euro Truck Simulator 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg",
+    "category": "Simulation",
+    "downloadLink": "https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/",
+    "description": "A long-haul driving simulator spanning European roads, cargo, and truck customization.",
+    "ratings": "4.8",
+    "developer": "SCS Software"
+  },
+  {
+    "id": "238960",
+    "title": "Path of Exile",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/238960/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/238960/Path_of_Exile/",
+    "description": "A dark free-to-play action RPG with deep character building and seasonal leagues.",
+    "ratings": "4.4",
+    "developer": "Grinding Gear Games"
+  },
+  {
+    "id": "242760",
+    "title": "The Forest",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/242760/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/242760/The_Forest/",
+    "description": "A first-person survival game set in a mysterious forest after a plane crash.",
+    "ratings": "4.5",
+    "developer": "Endnight Games Ltd"
+  },
+  {
+    "id": "252490",
+    "title": "Rust",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/252490/Rust/",
+    "description": "A multiplayer survival sandbox about crafting, building bases, and emergent rivalries.",
+    "ratings": "4.2",
+    "developer": "Facepunch Studios"
+  },
+  {
+    "id": "271590",
+    "title": "Grand Theft Auto V",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg",
+    "category": "Open World",
+    "downloadLink": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V_Enhanced/",
+    "description": "A sprawling crime-action open world set across Los Santos and Blaine County.",
+    "ratings": "4.5",
+    "developer": "Rockstar North"
+  },
+  {
+    "id": "275850",
+    "title": "No Man's Sky",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/275850/header.jpg",
+    "category": "Space Exploration",
+    "downloadLink": "https://store.steampowered.com/app/275850/No_Mans_Sky/",
+    "description": "An expansive science-fiction exploration game of procedural planets and starships.",
+    "ratings": "4.4",
+    "developer": "Hello Games"
+  },
+  {
+    "id": "289070",
+    "title": "Sid Meier's Civilization VI",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/289070/header.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/",
+    "description": "A turn-based strategy game about growing a civilization across history.",
+    "ratings": "4.3",
+    "developer": "Firaxis Games"
+  },
+  {
+    "id": "292030",
+    "title": "The Witcher 3: Wild Hunt",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
+    "description": "A story-rich open-world role-playing adventure starring monster hunter Geralt.",
+    "ratings": "4.9",
+    "developer": "CD PROJEKT RED"
+  },
+  {
+    "id": "304240",
+    "title": "Resident Evil",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/304240/header.jpg",
+    "category": "Survival Horror",
+    "downloadLink": "https://store.steampowered.com/app/304240/Resident_Evil/",
+    "description": "A remastered survival-horror classic set in a mansion filled with biological threats.",
+    "ratings": "4.5",
+    "developer": "CAPCOM"
+  },
+  {
+    "id": "311210",
+    "title": "Call of Duty: Black Ops III",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/311210/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/311210/Call_of_Duty_Black_Ops_III/",
+    "description": "A futuristic military shooter with multiplayer, campaign, and Zombies modes.",
+    "ratings": "4.0",
+    "developer": "Treyarch"
+  },
+  {
+    "id": "322330",
+    "title": "Don't Starve Together",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/322330/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/322330/Dont_Starve_Together/",
+    "description": "A gothic cooperative survival game about science, magic, and staying alive.",
+    "ratings": "4.7",
+    "developer": "Klei Entertainment"
+  },
+  {
+    "id": "359550",
+    "title": "Tom Clancy's Rainbow Six Siege",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/359550/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/",
+    "description": "A tactical team shooter centered on destructible environments and specialist operators.",
+    "ratings": "4.3",
+    "developer": "Ubisoft Montreal"
+  },
+  {
+    "id": "367520",
+    "title": "Hollow Knight",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
+    "category": "Metroidvania",
+    "downloadLink": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+    "description": "A hand-drawn action adventure through a vast, ruined underground kingdom.",
+    "ratings": "4.8",
+    "developer": "Team Cherry"
+  },
+  {
+    "id": "377160",
+    "title": "Fallout 4",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/377160/header.jpg",
+    "category": "RPG",
+    "downloadLink": "https://store.steampowered.com/app/377160/Fallout_4/",
+    "description": "An open-world post-nuclear RPG about rebuilding a life in the Commonwealth.",
+    "ratings": "4.1",
+    "developer": "Bethesda Game Studios"
+  },
+  {
+    "id": "381210",
+    "title": "Dead by Daylight",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/381210/header.jpg",
+    "category": "Horror",
+    "downloadLink": "https://store.steampowered.com/app/381210/Dead_by_Daylight/",
+    "description": "An asymmetrical multiplayer horror game of killers and survivors.",
+    "ratings": "4.1",
+    "developer": "Behaviour Interactive Inc."
+  },
+  {
+    "id": "391540",
+    "title": "Undertale",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
+    "category": "RPG",
+    "downloadLink": "https://store.steampowered.com/app/391540/Undertale/",
+    "description": "A quirky role-playing game where choices shape encounters in a monster world.",
+    "ratings": "4.8",
+    "developer": "tobyfox"
+  },
+  {
+    "id": "413150",
+    "title": "Stardew Valley",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+    "category": "Farm Simulation",
+    "downloadLink": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+    "description": "A relaxing farming and community simulation set in a small rural town.",
+    "ratings": "4.8",
+    "developer": "ConcernedApe"
+  },
+  {
+    "id": "427520",
+    "title": "Factorio",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/427520/header.jpg",
+    "category": "Factory Simulation",
+    "downloadLink": "https://store.steampowered.com/app/427520/Factorio/",
+    "description": "An automation strategy game about building vast, efficient factories on an alien world.",
+    "ratings": "4.8",
+    "developer": "Wube Software LTD."
+  },
+  {
+    "id": "438100",
+    "title": "VRChat",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/438100/header.jpg",
+    "category": "Social",
+    "downloadLink": "https://store.steampowered.com/app/438100/VRChat/",
+    "description": "A social virtual-reality platform built around user-made worlds and avatars.",
+    "ratings": "4.2",
+    "developer": "VRChat Inc."
+  },
+  {
+    "id": "489830",
+    "title": "The Elder Scrolls V: Skyrim Special Edition",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/489830/header.jpg",
+    "category": "RPG",
+    "downloadLink": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
+    "description": "An epic open-world fantasy RPG about dragons, magic, and personal adventure.",
+    "ratings": "4.7",
+    "developer": "Bethesda Game Studios"
+  },
+  {
+    "id": "49520",
+    "title": "Borderlands 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/49520/header.jpg",
+    "category": "Loot Shooter",
+    "downloadLink": "https://store.steampowered.com/app/49520/Borderlands_2/",
+    "description": "A cooperative loot shooter packed with outrageous weapons and colorful vault hunting.",
+    "ratings": "4.5",
+    "developer": "Gearbox Software"
+  },
+  {
+    "id": "526870",
+    "title": "Satisfactory",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/526870/header.jpg",
+    "category": "Factory Simulation",
+    "downloadLink": "https://store.steampowered.com/app/526870/Satisfactory/",
+    "description": "A first-person factory-building game for exploring, automating, and optimizing.",
+    "ratings": "4.7",
+    "developer": "Coffee Stain Studios"
+  },
+  {
+    "id": "548430",
+    "title": "Deep Rock Galactic",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/548430/header.jpg",
+    "category": "Co-op FPS",
+    "downloadLink": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/",
+    "description": "Dwarven miners cooperate to explore dangerous procedural caves on alien worlds.",
+    "ratings": "4.8",
+    "developer": "Ghost Ship Games"
+  },
+  {
+    "id": "570",
+    "title": "Dota 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://store.steampowered.com/app/570/Dota_2/",
+    "description": "A competitive five-versus-five strategy game featuring a large roster of heroes.",
+    "ratings": "4.3",
+    "developer": "Valve"
+  },
+  {
+    "id": "578080",
+    "title": "PUBG: BATTLEGROUNDS",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/",
+    "description": "A tactical battle royale where squads compete to be the last team standing.",
+    "ratings": "4.2",
+    "developer": "KRAFTON, Inc."
+  },
+  {
+    "id": "582010",
+    "title": "MONSTER HUNTER: WORLD",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/582010/Monster_Hunter_World/",
+    "description": "Hunt enormous creatures, craft gear, and join friends in a living ecosystem.",
+    "ratings": "4.6",
+    "developer": "CAPCOM"
+  },
+  {
+    "id": "594570",
+    "title": "Total War: WARHAMMER II",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/594570/header.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://store.steampowered.com/app/594570/Total_War_WARHAMMER_II/",
+    "description": "Grand strategy and real-time battles collide in the Warhammer Fantasy world.",
+    "ratings": "4.5",
+    "developer": "CREATIVE ASSEMBLY"
+  },
+  {
+    "id": "601510",
+    "title": "Yu-Gi-Oh! Duel Links",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/601510/header.jpg",
+    "category": "Card Game",
+    "downloadLink": "https://store.steampowered.com/app/601510/YuGiOh_Duel_Links/",
+    "description": "A fast digital card game based on the Yu-Gi-Oh! Trading Card Game.",
+    "ratings": "4.0",
+    "developer": "Konami Digital Entertainment"
+  },
+  {
+    "id": "620980",
+    "title": "Beat Saber",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/620980/header.jpg",
+    "category": "Rhythm",
+    "downloadLink": "https://store.steampowered.com/app/620980/Beat_Saber/",
+    "description": "A VR rhythm game where players slice music blocks with glowing sabers.",
+    "ratings": "4.7",
+    "developer": "Beat Games"
+  },
+  {
+    "id": "632360",
+    "title": "Risk of Rain 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/632360/header.jpg",
+    "category": "Roguelike",
+    "downloadLink": "https://store.steampowered.com/app/632360/Risk_of_Rain_2/",
+    "description": "A third-person roguelike shooter with escalating combat and co-op runs.",
+    "ratings": "4.6",
+    "developer": "Hopoo Games"
+  },
+  {
+    "id": "648800",
+    "title": "Raft",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/648800/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/648800/Raft/",
+    "description": "Survive at sea by expanding a raft, gathering resources, and exploring islands.",
+    "ratings": "4.4",
+    "developer": "Redbeet Interactive"
+  },
+  {
+    "id": "703080",
+    "title": "Planet Zoo",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/703080/header.jpg",
+    "category": "Simulation",
+    "downloadLink": "https://store.steampowered.com/app/703080/Planet_Zoo/",
+    "description": "A detailed zoo management simulation with animal welfare and creative habitats.",
+    "ratings": "4.5",
+    "developer": "Frontier Developments"
+  },
+  {
+    "id": "72850",
+    "title": "The Elder Scrolls V: Skyrim",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/72850/header.jpg",
+    "category": "RPG",
+    "downloadLink": "https://store.steampowered.com/app/72850/The_Elder_Scrolls_V_Skyrim/",
+    "description": "A classic open-world fantasy role-playing adventure in the northern province of Skyrim.",
+    "ratings": "4.6",
+    "developer": "Bethesda Game Studios"
+  },
+  {
+    "id": "739630",
+    "title": "Phasmophobia",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/header.jpg",
+    "category": "Co-op Horror",
+    "downloadLink": "https://store.steampowered.com/app/739630/Phasmophobia/",
+    "description": "A co-op paranormal investigation game where players identify hostile ghosts.",
+    "ratings": "4.5",
+    "developer": "Kinetic Games"
+  },
+  {
+    "id": "774171",
+    "title": "Muse Dash",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/774171/header.jpg",
+    "category": "Rhythm",
+    "downloadLink": "https://store.steampowered.com/app/774171/Muse_Dash/",
+    "description": "A stylish side-scrolling rhythm action game with an energetic music catalog.",
+    "ratings": "4.4",
+    "developer": "PeroPeroGames"
+  },
+  {
+    "id": "787860",
+    "title": "Farming Simulator 19",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/787860/header.jpg",
+    "category": "Simulation",
+    "downloadLink": "https://store.steampowered.com/app/787860/Farming_Simulator_19/",
+    "description": "Run and expand a modern farm with vehicles, crops, livestock, and equipment.",
+    "ratings": "4.2",
+    "developer": "GIANTS Software"
+  },
+  {
+    "id": "812140",
+    "title": "Assassin's Creed Odyssey",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/812140/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/812140/Assassins_Creed_Odyssey/",
+    "description": "An open-world action RPG set during ancient Greece and the Peloponnesian War.",
+    "ratings": "4.4",
+    "developer": "Ubisoft Quebec"
+  },
+  {
+    "id": "814380",
+    "title": "Sekiro: Shadows Die Twice",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
+    "category": "Action Adventure",
+    "downloadLink": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice/",
+    "description": "A demanding action adventure set in a reimagined late-1500s Japan.",
+    "ratings": "4.7",
+    "developer": "FromSoftware"
+  },
+  {
+    "id": "823130",
+    "title": "Totally Accurate Battle Simulator",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/823130/header.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://store.steampowered.com/app/823130/Totally_Accurate_Battle_Simulator/",
+    "description": "A playful physics strategy game about staging absurd armies against each other.",
+    "ratings": "4.5",
+    "developer": "Landfall"
+  },
+  {
+    "id": "892970",
+    "title": "Valheim",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/892970/Valheim/",
+    "description": "A Viking-themed survival and exploration game for building, sailing, and battling.",
+    "ratings": "4.7",
+    "developer": "Iron Gate AB"
+  },
+  {
+    "id": "945360",
+    "title": "Among Us",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg",
+    "category": "Social Deduction",
+    "downloadLink": "https://store.steampowered.com/app/945360/Among_Us/",
+    "description": "A social deduction game where crewmates find impostors before sabotage wins.",
+    "ratings": "4.3",
+    "developer": "Innersloth"
+  },
+  {
+    "id": "960090",
+    "title": "Bloons TD 6",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/960090/header.jpg",
+    "category": "Tower Defense",
+    "downloadLink": "https://store.steampowered.com/app/960090/Bloons_TD_6/",
+    "description": "A polished tower-defense game with colorful monkey heroes and strategic upgrades.",
+    "ratings": "4.8",
+    "developer": "Ninja Kiwi"
+  },
+  {
+    "id": "990080",
+    "title": "Hogwarts Legacy",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/990080/Hogwarts_Legacy/",
+    "description": "An open-world action RPG set in the wizarding world during the 1800s.",
+    "ratings": "4.3",
+    "developer": "Avalanche Software"
+  },
+  {
+    "id": "108600",
+    "title": "Project Zomboid",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/108600/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/108600/Project_Zomboid/",
+    "description": "A deep isometric survival RPG about enduring a detailed zombie apocalypse.",
+    "ratings": "4.7",
+    "developer": "The Indie Stone"
+  },
+  {
+    "id": "1091500",
+    "title": "Cyberpunk 2077",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
+    "description": "A narrative open-world RPG set in the neon-soaked metropolis of Night City.",
+    "ratings": "4.4",
+    "developer": "CD PROJEKT RED"
+  },
+  {
+    "id": "1113000",
+    "title": "Persona 4 Golden",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1113000/header.jpg",
+    "category": "JRPG",
+    "downloadLink": "https://store.steampowered.com/app/1113000/Persona_4_Golden/",
+    "description": "A coming-of-age mystery RPG set in rural Japan with dungeon exploration.",
+    "ratings": "4.7",
+    "developer": "ATLUS"
+  },
+  {
+    "id": "1145360",
+    "title": "Hades",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
+    "category": "Roguelike",
+    "downloadLink": "https://store.steampowered.com/app/1145360/Hades/",
+    "description": "A fast, award-winning roguelike dungeon crawler inspired by Greek mythology.",
+    "ratings": "4.8",
+    "developer": "Supergiant Games"
+  },
+  {
+    "id": "1174180",
+    "title": "Red Dead Redemption 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+    "category": "Open World",
+    "downloadLink": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/",
+    "description": "An expansive western tale about an outlaw gang at the end of the frontier era.",
+    "ratings": "4.7",
+    "developer": "Rockstar Games"
+  },
+  {
+    "id": "1172470",
+    "title": "Apex Legends",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://store.steampowered.com/app/1172470/Apex_Legends/",
+    "description": "A free-to-play hero battle royale with squad tactics and fluid movement.",
+    "ratings": "4.2",
+    "developer": "Respawn Entertainment"
+  },
+  {
+    "id": "1190970",
+    "title": "House Flipper",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1190970/header.jpg",
+    "category": "Simulation",
+    "downloadLink": "https://store.steampowered.com/app/1190970/House_Flipper/",
+    "description": "Buy, renovate, decorate, and sell houses in a hands-on home-improvement simulator.",
+    "ratings": "4.4",
+    "developer": "Empyrean"
+  },
+  {
+    "id": "1203220",
+    "title": "Nioh 2 – The Complete Edition",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203220/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/1203220/Nioh_2__The_Complete_Edition/",
+    "description": "A challenging samurai action RPG with deep combat and supernatural yokai.",
+    "ratings": "4.5",
+    "developer": "KOEI TECMO GAMES CO., LTD."
+  },
+  {
+    "id": "1222670",
+    "title": "The Sims 4",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222670/header.jpg",
+    "category": "Life Simulation",
+    "downloadLink": "https://store.steampowered.com/app/1222670/The_Sims_4/",
+    "description": "Create Sims, build homes, and guide lives in a playful social simulation.",
+    "ratings": "4.0",
+    "developer": "Maxis"
+  },
+  {
+    "id": "1245620",
+    "title": "ELDEN RING",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+    "description": "A vast dark-fantasy action RPG set in the open Lands Between.",
+    "ratings": "4.7",
+    "developer": "FromSoftware"
+  },
+  {
+    "id": "1250410",
+    "title": "Microsoft Flight Simulator",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1250410/header.jpg",
+    "category": "Flight Simulation",
+    "downloadLink": "https://store.steampowered.com/app/1250410/Microsoft_Flight_Simulator_40th_Anniversary_Edition/",
+    "description": "A realistic global flight simulator with detailed aircraft and world scenery.",
+    "ratings": "4.2",
+    "developer": "Asobo Studio"
+  },
+  {
+    "id": "1260320",
+    "title": "Party Animals",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1260320/header.jpg",
+    "category": "Party",
+    "downloadLink": "https://store.steampowered.com/app/1260320/Party_Animals/",
+    "description": "A physics-based party brawler where adorable animals compete in chaotic arenas.",
+    "ratings": "4.0",
+    "developer": "Recreate Games"
+  },
+  {
+    "id": "1281930",
+    "title": "tModLoader",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1281930/header.jpg",
+    "category": "Modding",
+    "downloadLink": "https://store.steampowered.com/app/1281930/tModLoader/",
+    "description": "An open-source modding platform for creating and playing Terraria modifications.",
+    "ratings": "4.7",
+    "developer": "tModLoader Team"
+  },
+  {
+    "id": "1293830",
+    "title": "Forza Horizon 4",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1293830/header.jpg",
+    "category": "Racing",
+    "downloadLink": "https://store.steampowered.com/app/1293830/Forza_Horizon_4/",
+    "description": "An open-world racing festival across a dynamic, season-changing Britain.",
+    "ratings": "4.5",
+    "developer": "Playground Games"
+  },
+  {
+    "id": "1328670",
+    "title": "Mass Effect Legendary Edition",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1328670/header.jpg",
+    "category": "RPG",
+    "downloadLink": "https://store.steampowered.com/app/1328670/Mass_Effect_Legendary_Edition/",
+    "description": "A remastered collection of the acclaimed space-opera role-playing trilogy.",
+    "ratings": "4.5",
+    "developer": "BioWare"
+  },
+  {
+    "id": "1332010",
+    "title": "Stray",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/header.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://store.steampowered.com/app/1332010/Stray/",
+    "description": "A third-person cat adventure through a neon-lit cybercity.",
+    "ratings": "4.5",
+    "developer": "BlueTwelve Studio"
+  },
+  {
+    "id": "1778820",
+    "title": "TEKKEN 8",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1778820/header.jpg",
+    "category": "Fighting",
+    "downloadLink": "https://store.steampowered.com/app/1778820/TEKKEN_8/",
+    "description": "A cinematic 3D fighting game continuing the long-running Mishima conflict.",
+    "ratings": "4.2",
+    "developer": "Bandai Namco Studios Inc."
+  },
+  {
+    "id": "1426210",
+    "title": "It Takes Two",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg",
+    "category": "Co-op Adventure",
+    "downloadLink": "https://store.steampowered.com/app/1426210/It_Takes_Two/",
+    "description": "A genre-bending cooperative adventure designed around two-player teamwork.",
+    "ratings": "4.7",
+    "developer": "Hazelight Studios"
+  },
+  {
+    "id": "1446780",
+    "title": "MONSTER HUNTER RISE",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1446780/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/1446780/MONSTER_HUNTER_RISE/",
+    "description": "Hunt monsters with agile movement and craft powerful equipment in Kamura.",
+    "ratings": "4.5",
+    "developer": "CAPCOM"
+  },
+  {
+    "id": "1462040",
+    "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1462040/header.jpg",
+    "category": "JRPG",
+    "downloadLink": "https://store.steampowered.com/app/1462040/FINAL_FANTASY_VII_REMAKE_INTERGRADE/",
+    "description": "A modern reimagining of the Midgar portion of the classic role-playing game.",
+    "ratings": "4.5",
+    "developer": "Square Enix"
+  },
+  {
+    "id": "1551360",
+    "title": "Forza Horizon 5",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/header.jpg",
+    "category": "Racing",
+    "downloadLink": "https://store.steampowered.com/app/1551360/Forza_Horizon_5/",
+    "description": "An open-world driving festival across Mexico with hundreds of cars to collect.",
+    "ratings": "4.5",
+    "developer": "Playground Games"
+  },
+  {
+    "id": "1599340",
+    "title": "LOST ARK",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1599340/header.jpg",
+    "category": "MMORPG",
+    "downloadLink": "https://store.steampowered.com/app/1599340/LOST_ARK/",
+    "description": "A free-to-play action MMORPG filled with quests, raids, and collectible islands.",
+    "ratings": "4.0",
+    "developer": "Smilegate RPG"
+  },
+  {
+    "id": "1623730",
+    "title": "Palworld",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1623730/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/1623730/Palworld/",
+    "description": "A creature-collecting open-world survival game with crafting and exploration.",
+    "ratings": "4.2",
+    "developer": "Pocketpair"
+  },
+  {
+    "id": "1665460",
+    "title": "eFootball",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1665460/header.jpg",
+    "category": "Sports",
+    "downloadLink": "https://store.steampowered.com/app/1665460/eFootball/",
+    "description": "A free-to-play football simulation with online competition and team building.",
+    "ratings": "3.7",
+    "developer": "Konami Digital Entertainment"
+  },
+  {
+    "id": "1672970",
+    "title": "Minecraft Dungeons",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1672970/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/1672970/Minecraft_Dungeons/",
+    "description": "An accessible dungeon crawler set in the blocky world of Minecraft.",
+    "ratings": "4.1",
+    "developer": "Mojang Studios"
+  },
+  {
+    "id": "1687950",
+    "title": "Persona 5 Royal",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg",
+    "category": "JRPG",
+    "downloadLink": "https://store.steampowered.com/app/1687950/Persona_5_Royal/",
+    "description": "A stylish school-life RPG about a group of phantom thieves.",
+    "ratings": "4.8",
+    "developer": "ATLUS"
+  },
+  {
+    "id": "1774580",
+    "title": "Star Wars Jedi: Survivor",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1774580/header.jpg",
+    "category": "Action Adventure",
+    "downloadLink": "https://store.steampowered.com/app/1774580/STAR_WARS_Jedi_Survivor/",
+    "description": "A cinematic action adventure continuing Cal Kestis's fight against the Empire.",
+    "ratings": "4.1",
+    "developer": "Respawn Entertainment"
+  },
+  {
+    "id": "1794680",
+    "title": "Vampire Survivors",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1794680/header.jpg",
+    "category": "Roguelite",
+    "downloadLink": "https://store.steampowered.com/app/1794680/Vampire_Survivors/",
+    "description": "A minimalist survival action game with escalating hordes and wild upgrades.",
+    "ratings": "4.8",
+    "developer": "poncle"
+  },
+  {
+    "id": "1817070",
+    "title": "Marvel's Spider-Man Remastered",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817070/header.jpg",
+    "category": "Action Adventure",
+    "downloadLink": "https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/",
+    "description": "Swing across New York as Peter Parker in this cinematic superhero adventure.",
+    "ratings": "4.6",
+    "developer": "Insomniac Games"
+  },
+  {
+    "id": "1817190",
+    "title": "Marvel's Spider-Man: Miles Morales",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817190/header.jpg",
+    "category": "Action Adventure",
+    "downloadLink": "https://store.steampowered.com/app/1817190/Marvels_SpiderMan_Miles_Morales/",
+    "description": "A superhero action adventure following Miles Morales in a wintery New York.",
+    "ratings": "4.5",
+    "developer": "Insomniac Games"
+  },
+  {
+    "id": "1888930",
+    "title": "The Last of Us Part I",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg",
+    "category": "Action Adventure",
+    "downloadLink": "https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/",
+    "description": "A character-driven post-pandemic action adventure starring Joel and Ellie.",
+    "ratings": "4.3",
+    "developer": "Naughty Dog LLC"
+  },
+  {
+    "id": "1938090",
+    "title": "Call of Duty",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/1938090/Call_of_Duty/",
+    "description": "A central launcher for Call of Duty experiences, multiplayer, and battle royale.",
+    "ratings": "3.8",
+    "developer": "Activision"
+  },
+  {
+    "id": "1966720",
+    "title": "Lethal Company",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1966720/header.jpg",
+    "category": "Co-op Horror",
+    "downloadLink": "https://store.steampowered.com/app/1966720/Lethal_Company/",
+    "description": "A co-op horror game about scavenging abandoned moons for a demanding company.",
+    "ratings": "4.7",
+    "developer": "Zeekerss"
+  },
+  {
+    "id": "1971650",
+    "title": "OCTOPATH TRAVELER II",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1971650/header.jpg",
+    "category": "JRPG",
+    "downloadLink": "https://store.steampowered.com/app/1971650/OCTOPATH_TRAVELER_II/",
+    "description": "Eight travelers embark on intersecting stories in a richly stylized HD-2D world.",
+    "ratings": "4.6",
+    "developer": "Square Enix"
+  },
+  {
+    "id": "2050650",
+    "title": "Resident Evil 4",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
+    "category": "Survival Horror",
+    "downloadLink": "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
+    "description": "A modern remake of the survival-horror action classic starring Leon Kennedy.",
+    "ratings": "4.7",
+    "developer": "CAPCOM"
+  },
+  {
+    "id": "2073850",
+    "title": "THE FINALS",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/2073850/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/2073850/THE_FINALS/",
+    "description": "A free-to-play team shooter centered on destructible arenas and cash-out objectives.",
+    "ratings": "4.1",
+    "developer": "Embark Studios"
+  },
+  {
+    "id": "2195250",
+    "title": "EA SPORTS FC 24",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/header.jpg",
+    "category": "Sports",
+    "downloadLink": "https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/",
+    "description": "A football simulation featuring clubs, leagues, Ultimate Team, and career modes.",
+    "ratings": "3.9",
+    "developer": "EA Canada"
+  },
+  {
+    "id": "2215430",
+    "title": "Ghost of Tsushima DIRECTOR'S CUT",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
+    "category": "Action Adventure",
+    "downloadLink": "https://store.steampowered.com/app/2215430/Ghost_of_Tsushima_DIRECTORS_CUT/",
+    "description": "A cinematic open-world samurai adventure set on the island of Tsushima.",
+    "ratings": "4.7",
+    "developer": "Sucker Punch Productions"
+  },
+  {
+    "id": "2358720",
+    "title": "Black Myth: Wukong",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/2358720/Black_Myth_Wukong/",
+    "description": "An action RPG inspired by Journey to the West and Chinese mythology.",
+    "ratings": "4.5",
+    "developer": "Game Science"
+  },
+  {
+    "id": "2420110",
+    "title": "Horizon Forbidden West Complete Edition",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/2420110/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/2420110/Horizon_Forbidden_West_Complete_Edition/",
+    "description": "Explore a vibrant post-apocalyptic frontier as hunter Aloy.",
+    "ratings": "4.5",
+    "developer": "Guerrilla"
+  },
+  {
+    "id": "253230",
+    "title": "A Hat in Time",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/253230/header.jpg",
+    "category": "Platformer",
+    "downloadLink": "https://store.steampowered.com/app/253230/A_Hat_in_Time/",
+    "description": "A charming 3D platform adventure about collecting Time Pieces across strange worlds.",
+    "ratings": "4.7",
+    "developer": "Gears for Breakfast"
+  },
+  {
+    "id": "257850",
+    "title": "Hyper Light Drifter",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/257850/header.jpg",
+    "category": "Action Adventure",
+    "downloadLink": "https://store.steampowered.com/app/257850/Hyper_Light_Drifter/",
+    "description": "A difficult action adventure with atmospheric pixel art and cryptic storytelling.",
+    "ratings": "4.6",
+    "developer": "Heart Machine"
+  },
+  {
+    "id": "268500",
+    "title": "XCOM 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/268500/header.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://store.steampowered.com/app/268500/XCOM_2/",
+    "description": "A turn-based tactics game about leading resistance forces against an alien occupation.",
+    "ratings": "4.4",
+    "developer": "Firaxis Games"
+  },
+  {
+    "id": "304430",
+    "title": "INSIDE",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/304430/header.jpg",
+    "category": "Puzzle Platformer",
+    "downloadLink": "https://store.steampowered.com/app/304430/INSIDE/",
+    "description": "A dark atmospheric puzzle-platformer about a boy fleeing a controlled world.",
+    "ratings": "4.6",
+    "developer": "Playdead"
+  },
+  {
+    "id": "311690",
+    "title": "Enter the Gungeon",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/311690/header.jpg",
+    "category": "Roguelike",
+    "downloadLink": "https://store.steampowered.com/app/311690/Enter_the_Gungeon/",
+    "description": "A bullet-hell dungeon crawler about seeking a legendary gun that can erase the past.",
+    "ratings": "4.7",
+    "developer": "Dodge Roll"
+  },
+  {
+    "id": "322170",
+    "title": "Geometry Dash",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg",
+    "category": "Rhythm Platformer",
+    "downloadLink": "https://store.steampowered.com/app/322170/Geometry_Dash/",
+    "description": "A precision rhythm platformer with challenging levels and a huge creative community.",
+    "ratings": "4.6",
+    "developer": "RobTop Games"
+  },
+  {
+    "id": "346110",
+    "title": "ARK: Survival Evolved",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/346110/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/346110/ARK_Survival_Evolved/",
+    "description": "Tame dinosaurs, build shelters, and survive a mysterious prehistoric island.",
+    "ratings": "4.0",
+    "developer": "Studio Wildcard"
+  },
+  {
+    "id": "361420",
+    "title": "ASTRONEER",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/361420/header.jpg",
+    "category": "Space Exploration",
+    "downloadLink": "https://store.steampowered.com/app/361420/ASTRONEER/",
+    "description": "A colorful space sandbox about reshaping planets, base building, and discovery.",
+    "ratings": "4.5",
+    "developer": "System Era Softworks"
+  },
+  {
+    "id": "376210",
+    "title": "The Isle",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/376210/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/376210/The_Isle/",
+    "description": "A multiplayer survival game about living as dinosaurs in a dangerous ecosystem.",
+    "ratings": "3.9",
+    "developer": "Afterthought LLC"
+  },
+  {
+    "id": "383150",
+    "title": "Dead Island Definitive Edition",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/383150/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/383150/Dead_Island_Definitive_Edition/",
+    "description": "A tropical zombie action RPG with melee combat and cooperative play.",
+    "ratings": "4.1",
+    "developer": "Techland"
+  },
+  {
+    "id": "264710",
+    "title": "Subnautica",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/264710/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/264710/Subnautica/",
+    "description": "An underwater survival adventure on an alien ocean planet full of mystery.",
+    "ratings": "4.8",
+    "developer": "Unknown Worlds Entertainment"
+  },
+  {
+    "id": "431960",
+    "title": "Wallpaper Engine",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/431960/header.jpg",
+    "category": "Utility",
+    "downloadLink": "https://store.steampowered.com/app/431960/Wallpaper_Engine/",
+    "description": "A desktop customization app for creating and sharing animated wallpapers.",
+    "ratings": "4.8",
+    "developer": "Kristjan Skutta"
+  },
+  {
+    "id": "435150",
+    "title": "Divinity: Original Sin 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/435150/header.jpg",
+    "category": "RPG",
+    "downloadLink": "https://store.steampowered.com/app/435150/Divinity_Original_Sin_2_Definitive_Edition/",
+    "description": "A deep party-based fantasy RPG with systemic combat and player-driven choices.",
+    "ratings": "4.8",
+    "developer": "Larian Studios"
+  },
+  {
+    "id": "477160",
+    "title": "Human: Fall Flat",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/477160/header.jpg",
+    "category": "Puzzle Platformer",
+    "downloadLink": "https://store.steampowered.com/app/477160/Human_Fall_Flat/",
+    "description": "A physics-based puzzle platformer about wobbly characters and open-ended challenges.",
+    "ratings": "4.4",
+    "developer": "No Brakes Games"
+  },
+  {
+    "id": "518790",
+    "title": "theHunter: Call of the Wild",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/518790/header.jpg",
+    "category": "Hunting Simulation",
+    "downloadLink": "https://store.steampowered.com/app/518790/theHunter_Call_of_the_Wild/",
+    "description": "A hunting simulation set across large, carefully modeled natural reserves.",
+    "ratings": "4.4",
+    "developer": "Expansive Worlds"
+  },
+  {
+    "id": "552500",
+    "title": "Warhammer: Vermintide 2",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/552500/header.jpg",
+    "category": "Co-op Action",
+    "downloadLink": "https://store.steampowered.com/app/552500/Warhammer_Vermintide_2/",
+    "description": "A cooperative melee-focused action game set in the Warhammer Fantasy universe.",
+    "ratings": "4.5",
+    "developer": "Fatshark"
+  },
+  {
+    "id": "629520",
+    "title": "Soundpad",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/629520/header.jpg",
+    "category": "Utility",
+    "downloadLink": "https://store.steampowered.com/app/629520/Soundpad/",
+    "description": "A soundboard tool for playing audio through a microphone device.",
+    "ratings": "4.5",
+    "developer": "Leppsoft"
+  },
+  {
+    "id": "646570",
+    "title": "Slay the Spire",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg",
+    "category": "Deckbuilding Roguelike",
+    "downloadLink": "https://store.steampowered.com/app/646570/Slay_the_Spire/",
+    "description": "A deckbuilding roguelike where every card choice shapes a climb up the Spire.",
+    "ratings": "4.8",
+    "developer": "Mega Crit"
+  },
+  {
+    "id": "559650",
+    "title": "Witch It",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/559650/header.jpg",
+    "category": "Party",
+    "downloadLink": "https://store.steampowered.com/app/559650/Witch_It/",
+    "description": "A multiplayer hide-and-seek game about witches disguising themselves as objects.",
+    "ratings": "4.1",
+    "developer": "Barrel Roll Games"
+  },
+  {
+    "id": "740130",
+    "title": "Tales of Arise",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/740130/header.jpg",
+    "category": "JRPG",
+    "downloadLink": "https://store.steampowered.com/app/740130/Tales_of_Arise/",
+    "description": "A cinematic action JRPG about two worlds divided by oppression.",
+    "ratings": "4.4",
+    "developer": "Bandai Namco Studios Inc."
+  },
+  {
+    "id": "848450",
+    "title": "Subnautica: Below Zero",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/848450/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/848450/Subnautica_Below_Zero/",
+    "description": "A standalone icy underwater survival adventure on planet 4546B.",
+    "ratings": "4.3",
+    "developer": "Unknown Worlds Entertainment"
+  },
+  {
+    "id": "1782210",
+    "title": "Crab Game",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1782210/header.jpg",
+    "category": "Party",
+    "downloadLink": "https://store.steampowered.com/app/1782210/Crab_Game/",
+    "description": "A free multiplayer party game of chaotic minigames and survival challenges.",
+    "ratings": "4.3",
+    "developer": "Dani"
+  },
+  {
+    "id": "920210",
+    "title": "LEGO Star Wars: The Skywalker Saga",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/920210/header.jpg",
+    "category": "Action Adventure",
+    "downloadLink": "https://store.steampowered.com/app/920210/LEGO_Star_Wars_The_Skywalker_Saga/",
+    "description": "A playful action adventure spanning all nine main Star Wars saga films.",
+    "ratings": "4.2",
+    "developer": "TT Games"
+  },
+  {
+    "id": "1063730",
+    "title": "New World",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1063730/header.jpg",
+    "category": "MMORPG",
+    "downloadLink": "https://store.steampowered.com/app/1063730/New_World_Aeternum/",
+    "description": "A supernatural MMO about exploration, crafting, and faction warfare on Aeternum.",
+    "ratings": "3.9",
+    "developer": "Amazon Games"
+  },
+  {
+    "id": "1097150",
+    "title": "Fall Guys",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1097150/header.jpg",
+    "category": "Party",
+    "downloadLink": "https://store.steampowered.com/app/1097150/Fall_Guys/",
+    "description": "A colorful massively multiplayer party game of obstacle courses and eliminations.",
+    "ratings": "4.0",
+    "developer": "Mediatonic"
+  },
+  {
+    "id": "1326470",
+    "title": "Sons Of The Forest",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/",
+    "description": "A survival horror sandbox about searching for a missing billionaire on a remote island.",
+    "ratings": "4.3",
+    "developer": "Endnight Games Ltd"
+  },
+  {
+    "id": "2252570",
+    "title": "Football Manager 2024",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/2252570/header.jpg",
+    "category": "Sports Management",
+    "downloadLink": "https://store.steampowered.com/app/2252570/Football_Manager_2024/",
+    "description": "A detailed football management simulation about tactics, transfers, and club building.",
+    "ratings": "4.4",
+    "developer": "Sports Interactive"
+  },
+  {
+    "id": "2767030",
+    "title": "Marvel Rivals",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/2767030/header.jpg",
+    "category": "Hero Shooter",
+    "downloadLink": "https://store.steampowered.com/app/2767030/Marvel_Rivals/",
+    "description": "A team-based hero shooter with Marvel characters and destructible environments.",
+    "ratings": "4.2",
+    "developer": "NetEase Games"
+  }
+]
