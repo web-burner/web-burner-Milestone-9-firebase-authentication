@@ -9,7 +9,6 @@ import {
 } from "firebase/auth";
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-
   //   user sign with google
   const googleProvider = new GoogleAuthProvider();
   const handleUserSignUpWithGoogle = () => {
@@ -23,13 +22,13 @@ const AuthProvider = ({ children }) => {
 
   //   auth state provider
   useEffect(() => {
-    const unSubscribe = onAuthStateChanged(auth, (currentUser) =>
-      setUser(currentUser),
-    );
-    return unSubscribe();
+    const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+    });
+    return () => unSubscribe();
   }, []);
 
-//   set context value in this object 
+  //   set context value in this object
   const userIno = { handleUserSignUpWithGoogle, user, setUser, userSignOut };
 
   return <AuthContext value={userIno}>{children}</AuthContext>;
