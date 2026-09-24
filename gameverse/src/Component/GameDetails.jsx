@@ -1,5 +1,5 @@
 import { FaStar } from "react-icons/fa";
-import { Link, useLoaderData, useNavigate, useParams } from "react-router";
+import { Link, useLoaderData, useLocation, useNavigate, useParams } from "react-router";
 
 const GameDetails = () => {
   const { id } = useParams();
@@ -14,9 +14,12 @@ const GameDetails = () => {
     ratings,
     downloadLink,
   } = matchedApp;
+
   const navigate = useNavigate();
+  const path = useLocation().state
   return (
     <div className=" h-120 p-10 rounded-2xl bg-base-100 shadow-sm w-10/12 mx-auto">
+<title>{path}</title>
       <figure className=" mb-5">
         <img
           className=" w-52 rounded-xl"

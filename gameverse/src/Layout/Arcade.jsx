@@ -9,6 +9,7 @@ const Arcade = () => {
 
   return (
     <div className=" w-10/12 mx-auto py-10">
+      <title>GameVerse - Arcade Nights</title>
       <div className=" bg-linear-to-r from-blue-950 p-10 to-black text-white h-80  rounded-2xl flex justify-between">
         <div className=" w-3/5 flex flex-col justify-center items-start gap-2">
           <p className="text-[#1FD7DD]">ALTERNATE THEME ROUTE</p>

@@ -1,11 +1,20 @@
+import { use } from "react";
 import { FaStar } from "react-icons/fa";
 import { useNavigate } from "react-router";
+import { AuthContext } from "../Auth/AuthContext";
 const TopRatedApp = ({ app }) => {
-  const { id, title, coverPhoto, category, ratings } = app;
+  const { user } = use(AuthContext);
+  const { id, title, coverPhoto, category, ratings, developer } = app;
   const navigate = useNavigate();
   return (
     <div
-      onClick={() => navigate(`/gameDetails/${id}`)}
+      onClick={() =>
+        user
+          ? navigate(`/gameDetails/${id}`, {
+              state: `${title} by ${developer}`,
+            })
+          : navigate("/login")
+      }
       className="rounded-2xl border border-gray-300 bg-white hover:-translate-y-2 duration-200 ease-in-out hover:shadow-2xl"
     >
       <figure>

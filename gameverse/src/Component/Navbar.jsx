@@ -1,6 +1,11 @@
-import { Link, NavLink } from "react-router";
+import { use } from "react";
+import { Link, NavLink, useNavigate } from "react-router";
+import { AuthContext } from "../Auth/AuthContext";
+import { toast } from "react-toastify";
 
 const Navbar = () => {
+  const { user,setUser, userSignOut } = use(AuthContext);
+  const navigate = useNavigate();
   const links = (
     <>
       <NavLink to={"/"}>Home</NavLink>
@@ -8,6 +13,18 @@ const Navbar = () => {
       <NavLink to={"/arcade"}>Arcade Nights</NavLink>
     </>
   );
+  const handleSignOut = () => {
+    userSignOut()
+      .then(() => {
+        setUser(null)
+        toast("User Logged Out Successfully!");
+        navigate("/login");
+      })
+      .catch((err) => {
+        console.log(err);
+        setUser(user)
+      });
+  };
   return (
     <nav className="navbar p-5 w-11/12 mx-auto ">
       <div className="navbar-start w-auto">
@@ -49,12 +66,27 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-3">
-        <Link to={'/login'} className="btn bg-violet-100 text-violet-800 border-0 rounded-xl">
-          Login
-        </Link>
-        <Link to={'/register'} className="btn text-white bg-violet-600 border-0 rounded-xl">
-          Create Account
-        </Link>
+        {user ? (
+          <>
+            <p>{user.displayName}</p>
+            <button className=" cursor-pointer btn" onClick={handleSignOut}>Sign Out</button>
+          </>
+        ) : (
+          <>
+            <Link
+              to={"/login"}
+              className="btn bg-violet-100 text-violet-800 border-0 rounded-xl"
+            >
+              Login
+            </Link>
+            <Link
+              to={"/register"}
+              className="btn text-white bg-violet-600 border-0 rounded-xl"
+            >
+              Create Account
+            </Link>
+          </>
+        )}
       </div>
     </nav>
   );

@@ -1,8 +1,22 @@
+import { use } from "react";
 import { Link } from "react-router";
+import { AuthContext } from "../Auth/AuthContext";
 
 const Register = () => {
+  const { handleUserSignUpWithGoogle ,setUser } = use(AuthContext);
+  const createUserWithGoogle = () => {
+    handleUserSignUpWithGoogle()
+      .then((result) => {
+        setUser(result.user)
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
   return (
     <div className="hero bg-transparent min-h-150 px-10">
+              <title>Create GameVerse Account </title>
+
       <div className="hero-content items-start flex-col px-5 py-10 rounded-2xl w-1/2">
         <div className="card w-full p-10 bg-white">
           <div className=" text-start">
@@ -55,7 +69,10 @@ const Register = () => {
           <p className=" text-center text-gray-400">Or</p>
 
           {/* Google */}
-          <button className="btn bg-white text-black border-[#e5e5e5]">
+          <button
+            onClick={createUserWithGoogle}
+            className="btn bg-white text-black border-[#e5e5e5]"
+          >
             <svg
               aria-label="Google logo"
               width="16"

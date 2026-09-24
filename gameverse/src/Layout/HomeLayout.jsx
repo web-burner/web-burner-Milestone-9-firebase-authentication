@@ -11,6 +11,7 @@ const HomeLayout = () => {
     return (
         <>
         <div className=" py-10">
+            <title>GameVerse - Home</title>
             <Banner bannerContent={bannerContent}/>
             <TopRated topRated={topRated}/>
             <SubscriptionBar/>

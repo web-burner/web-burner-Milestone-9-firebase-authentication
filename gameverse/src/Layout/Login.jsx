@@ -3,6 +3,8 @@ import { Link } from "react-router";
 const Login = () => {
   return (
     <div className="hero bg-transparent min-h-150 px-10">
+              <title>GameVerse - Login</title>
+
       <div className="hero-content items-start flex-col px-5 py-10 rounded-2xl w-1/2">
         <div className="card w-full p-10 bg-white">
           <div className=" text-start">
