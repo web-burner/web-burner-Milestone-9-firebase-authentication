@@ -1,5 +1,5 @@
 import { use, useState } from "react";
-import { Link } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Auth/AuthContext";
 import { toast } from "react-toastify";
 const Login = () => {
@@ -11,11 +11,15 @@ const Login = () => {
   } = use(AuthContext);
   const [error, setError] = useState("");
 
+  const location = useLocation().state;
+  const navigate = useNavigate();
+
   const handleSignIn = () => {
     handleUserSignInWithGoogle()
       .then((result) => {
         toast("User Logged In Successfully!");
         setUser(result.user);
+        navigate(location || '/');
       })
       .catch((err) => {
         toast(err);
@@ -51,11 +55,13 @@ const Login = () => {
       handleEmailPasswordLogin(email, password)
         .then((result) => {
           setUser(result.user);
+          navigate(location || '/');
         })
         .catch((err) => {
           console.log(err);
         });
     }
+
   };
   return (
     <div className="hero bg-transparent min-h-150 px-10">
@@ -95,7 +101,10 @@ const Login = () => {
               <div>
                 <a className="link link-hover">Forgot password?</a>
               </div>
-              <button className="btn btn-neutral mt-2">Login</button>
+              <button 
+              className="btn btn-neutral mt-2">
+                Login
+              </button>
               <p>
                 New Here?{" "}
                 <Link className=" hover:underline" to={"/register"}>
@@ -107,7 +116,8 @@ const Login = () => {
           <p className=" text-center text-gray-400">or</p>
 
           {/* Google */}
-          <button
+          <Link
+            to={user ? location : "/"}
             onClick={handleSignIn}
             className="btn bg-white text-black border-[#e5e5e5]"
           >
@@ -139,7 +149,7 @@ const Login = () => {
               </g>
             </svg>
             Sign In with Google
-          </button>
+          </Link>
         </div>
       </div>
     </div>

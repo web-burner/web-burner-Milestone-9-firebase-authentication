@@ -13,7 +13,7 @@ const TopRatedApp = ({ app }) => {
           ? navigate(`/gameDetails/${id}`, {
               state: `${title} by ${developer}`,
             })
-          : navigate("/login")
+          : navigate("/login" ,{state: `/gameDetails/${id}`})
       }
       className="rounded-2xl border border-gray-300 bg-white hover:-translate-y-2 duration-200 ease-in-out hover:shadow-2xl"
     >
