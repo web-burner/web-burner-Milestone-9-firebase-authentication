@@ -1,25 +1,23 @@
 import { use, useState } from "react";
 import { Link } from "react-router";
 import { AuthContext } from "../Auth/AuthContext";
-import { updateProfile } from "firebase/auth";
-import { auth } from "../firebase.init";
 
 const Register = () => {
-  const { handleCreateUserWithEmailAndPassword, setUser } = use(AuthContext);
+  const { handleCreateUserWithEmailAndPassword, setUser, updateUserProfile } =
+    use(AuthContext);
   const [error, setError] = useState("");
   const createUserWithGoogle = (e) => {
     e.preventDefault();
 
-     const name = e.target.name.value;
+    const name = e.target.name.value;
     const imageUrl = e.target.image.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
-    
+
     const uppercaseRegex = /(?=.*[A-Z])/;
     const lowercaseRegex = /(?=.*[a-z])/;
     const lengthRegex = /.{6,}/;
 
-   
     if (!uppercaseRegex.test(password)) {
       setError("At least one UpperCase required!");
       return;
@@ -35,15 +33,12 @@ const Register = () => {
     setError("");
     handleCreateUserWithEmailAndPassword(email, password)
       .then(() => {
-        updateProfile(auth.currentUser, {
-          displayName: name,
-          photoURL: imageUrl,
-        })
+        updateUserProfile(name, imageUrl)
           .then((currentUser) => {
             setUser({ ...currentUser, displayName: name, photoURL: imageUrl });
           })
           .catch((err) => {
-            console.log(err)
+            console.log(err);
           });
       })
       .catch((err) => {

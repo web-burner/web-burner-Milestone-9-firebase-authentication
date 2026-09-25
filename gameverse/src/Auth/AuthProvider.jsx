@@ -8,6 +8,7 @@ import {
   signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
+  updateProfile,
 } from "firebase/auth";
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
@@ -30,19 +31,33 @@ const AuthProvider = ({ children }) => {
     return () => unSubscribe();
   }, []);
 
-  // create user with email and password 
-  const handleCreateUserWithEmailAndPassword = (email,password)=>{
-    return createUserWithEmailAndPassword(auth,email,password)
-  }
+  // create user with email and password
+  const handleCreateUserWithEmailAndPassword = (email, password) => {
+    return createUserWithEmailAndPassword(auth, email, password);
+  };
 
+  //   login with email and password
+  const handleEmailPasswordLogin = (email, password) => {
+    return signInWithEmailAndPassword(auth, email, password);
+  };
 
-//   login with email and password 
-  const handleEmailPasswordLogin = (email, password) =>{
-    return signInWithEmailAndPassword(auth,email,password)
-  }
-
+  // update user profile
+  const updateUserProfile = (name, imageURL) => {
+    return updateProfile(auth.currentUser, {
+      displayName: name,
+      photoURL: imageURL,
+    });
+  };
   //   set context value in this object
-  const userIno = { handleUserSignInWithGoogle, user, setUser, userSignOut , handleEmailPasswordLogin,handleCreateUserWithEmailAndPassword};
+  const userIno = {
+    handleUserSignInWithGoogle,
+    user,
+    setUser,
+    userSignOut,
+    handleEmailPasswordLogin,
+    handleCreateUserWithEmailAndPassword,
+    updateUserProfile,
+  };
 
   return <AuthContext value={userIno}>{children}</AuthContext>;
 };
