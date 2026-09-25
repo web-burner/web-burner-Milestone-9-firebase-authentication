@@ -5,6 +5,7 @@ import { toast } from "react-toastify";
 
 const Navbar = () => {
   const { user,setUser, userSignOut } = use(AuthContext);
+  console.log(user)
   const navigate = useNavigate();
   const links = (
     <>
@@ -68,6 +69,7 @@ const Navbar = () => {
       <div className="navbar-end gap-3">
         {user ? (
           <>
+            <img src={user.photoURL} className="w-8" alt="userImage" />
             <p>{user.displayName}</p>
             <button className=" cursor-pointer btn" onClick={handleSignOut}>Sign Out</button>
           </>
