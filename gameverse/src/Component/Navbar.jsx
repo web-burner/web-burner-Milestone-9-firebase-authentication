@@ -4,7 +4,7 @@ import { AuthContext } from "../Auth/AuthContext";
 import { toast } from "react-toastify";
 
 const Navbar = () => {
-  const { user,setUser, userSignOut } = use(AuthContext);
+  const { user, setUser, userSignOut } = use(AuthContext);
   const navigate = useNavigate();
   const links = (
     <>
@@ -16,13 +16,13 @@ const Navbar = () => {
   const handleSignOut = () => {
     userSignOut()
       .then(() => {
-        setUser(null)
+        setUser(null);
         toast("User Logged Out Successfully!");
         navigate("/login");
       })
       .catch((err) => {
         console.log(err);
-        setUser(user)
+        setUser(user);
       });
   };
   return (
@@ -65,12 +65,20 @@ const Navbar = () => {
           {links}
         </ul>
       </div>
-      <div className="navbar-end gap-3">
+      <div className="navbar-end gap-2">
         {user ? (
           <>
-            <img src={user.photoURL} className="w-10 rounded-xl" alt="userImage" />
-            <p>{user.displayName}</p>
-            <button className=" cursor-pointer btn" onClick={handleSignOut}>Sign Out</button>
+            <div onClick={() => navigate("/profile")} className=" flex justify-center items-center gap-2 p-1 pr-2 cursor-pointer border border-gray-200 rounded-xl">
+              <img
+                src={user.photoURL}
+                className="w-8 rounded-lg"
+                alt="userImage"
+              />
+              <p>{user.displayName}</p>
+            </div>
+            <button className=" cursor-pointer btn rounded-xl p-1" onClick={handleSignOut}>
+              Sign Out
+            </button>
           </>
         ) : (
           <>

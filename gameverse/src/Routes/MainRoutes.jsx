@@ -8,6 +8,8 @@ import Login from "../Layout/Login";
 import Register from "../Layout/Register";
 import PrivateRoutes from "./PrivateRoutes";
 import Profile from "../Layout/Profile";
+import ProfileEdit from "../Component/ProfileEdit";
+import ProfileSettings from "../Component/ProfileSettings";
 
 export const router = createBrowserRouter([
   {
@@ -54,6 +56,13 @@ export const router = createBrowserRouter([
             <Profile />
           </PrivateRoutes>
         ),
+        children: [
+          { index: true, Component: ProfileSettings },
+          {
+            path: "/profile/edit",
+            Component: ProfileEdit,
+          },
+        ],
       },
     ],
   },
