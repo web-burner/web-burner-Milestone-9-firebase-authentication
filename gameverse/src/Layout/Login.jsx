@@ -19,7 +19,7 @@ const Login = () => {
       .then((result) => {
         toast("User Logged In Successfully!");
         setUser(result.user);
-        navigate(location || '/');
+        navigate(location || "/");
       })
       .catch((err) => {
         toast(err);
@@ -55,14 +55,14 @@ const Login = () => {
       handleEmailPasswordLogin(email, password)
         .then((result) => {
           setUser(result.user);
-          navigate(location || '/');
+          navigate(location || "/");
         })
         .catch((err) => {
           console.log(err);
         });
     }
-
   };
+
   return (
     <div className="hero bg-transparent min-h-150 px-10">
       <title>GameVerse - Login</title>
@@ -99,12 +99,14 @@ const Login = () => {
                 <p className=" text-red-700">{error}</p>
               )}
               <div>
-                <a className="link link-hover">Forgot password?</a>
+                <a
+                  onClick={() => navigate("/forgotPassword")}
+                  className="link link-hover"
+                >
+                  Forgot password?
+                </a>
               </div>
-              <button 
-              className="btn btn-neutral mt-2">
-                Login
-              </button>
+              <button className="btn btn-neutral mt-2">Login</button>
               <p>
                 New Here?{" "}
                 <Link className=" hover:underline" to={"/register"}>

@@ -5,6 +5,7 @@ import {
   createUserWithEmailAndPassword,
   GoogleAuthProvider,
   onAuthStateChanged,
+  sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
@@ -48,6 +49,11 @@ const AuthProvider = ({ children }) => {
       photoURL: imageURL,
     });
   };
+
+  // reset password 
+  const resetPassword = (email)=>{
+    return sendPasswordResetEmail(auth , email)
+  }
   //   set context value in this object
   const userIno = {
     handleUserSignInWithGoogle,
@@ -57,6 +63,7 @@ const AuthProvider = ({ children }) => {
     handleEmailPasswordLogin,
     handleCreateUserWithEmailAndPassword,
     updateUserProfile,
+    resetPassword
   };
 
   return <AuthContext value={userIno}>{children}</AuthContext>;

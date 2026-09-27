@@ -5,6 +5,9 @@ import { AuthContext } from "../Auth/AuthContext";
 const ProfileEdit = () => {
   const { user } = use(AuthContext);
   const navigate = useNavigate();
+  const handleSubmit = (e)=> {
+    e.preventDefault()
+  }
   return (
     <>
       <p className=" text-3xl font-bold text-center mb-4">Edit Profile</p>
@@ -22,7 +25,7 @@ const ProfileEdit = () => {
         </div>
       </div>
       <div>
-        <form className="fieldset">
+        <form className="fieldset" onSubmit={handleSubmit}>
           <label className="label">Name</label>
           <input type="text" className="input w-full" placeholder="Name" />
           <div>
@@ -32,9 +35,9 @@ const ProfileEdit = () => {
           </div>
           <label className="label">Photo URL</label>
           <input
-            type="file"
-            name="photo"
-            className="input w-full"
+            type="text"
+            className=" input w-full"
+            placeholder="Photo"
           />
           <label className="label">Phone</label>
           <input type="phone" className="input w-full" placeholder="Phone" />

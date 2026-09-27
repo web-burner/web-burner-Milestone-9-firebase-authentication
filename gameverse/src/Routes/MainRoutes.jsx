@@ -10,6 +10,7 @@ import PrivateRoutes from "./PrivateRoutes";
 import Profile from "../Layout/Profile";
 import ProfileEdit from "../Component/ProfileEdit";
 import ProfileSettings from "../Component/ProfileSettings";
+import ForgotPassword from "../Layout/ForgotPassword";
 
 export const router = createBrowserRouter([
   {
@@ -48,6 +49,9 @@ export const router = createBrowserRouter([
       {
         path: "register",
         Component: Register,
+      },{
+        path:'forgotPassword',
+        Component: ForgotPassword
       },
       {
         path: "profile",
