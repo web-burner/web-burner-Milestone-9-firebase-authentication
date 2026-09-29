@@ -8,12 +8,14 @@ import {
 } from "react-icons/ci";
 import { use } from "react";
 import { AuthContext } from "../Auth/AuthContext";
+
 const ProfileSettings = () => {
-  const { user } = use(AuthContext);
-  console.log(user)
+  const { user,  } = use(AuthContext);
+  console.log(location);
+
   const navigate = useNavigate();
   return (
-    <>
+    <div className=" bg-white space-y-3 px-10 w-2/5 mx-auto rounded-2xl py-5">
       <p className=" text-3xl font-bold text-center mb-4">Profile</p>
       <div className=" flex flex-col justify-center items-center gap-2  ">
         <figure>
@@ -44,7 +46,10 @@ const ProfileSettings = () => {
           <CiShoppingCart />
           <span>My Cart</span>
         </button>
-        <button className=" cursor-pointer hover:text-violet-800 flex gap-1 items-center">
+        <button
+          onClick={() => navigate("/profile/updatePassword")}
+          className=" cursor-pointer hover:text-violet-800 flex gap-1 items-center"
+        >
           <CiLock />
           <span>Change Password</span>
         </button>
@@ -57,7 +62,7 @@ const ProfileSettings = () => {
           <span>Log Out</span>
         </button>
       </div>
-    </>
+    </div>
   );
 };
 

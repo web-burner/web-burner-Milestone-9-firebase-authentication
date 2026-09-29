@@ -2,6 +2,7 @@ import { use } from "react";
 import { Link, NavLink, useNavigate } from "react-router";
 import { AuthContext } from "../Auth/AuthContext";
 import { toast } from "react-toastify";
+import { motion } from "motion/react";
 
 const Navbar = () => {
   const { user, setUser, userSignOut } = use(AuthContext);
@@ -54,49 +55,90 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link to={"/"} className="text-2xl font-bold">
-          <span>
-            GAME<span className=" text-violet-700">VERSE</span>
-          </span>
-        </Link>
+        <motion.div
+          initial={{ opacity: 0.2, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.3, ease: "easeInOut" }}
+        >
+          <Link to={"/"} className="text-2xl font-bold">
+            <span>
+              GAME<span className=" text-violet-700">VERSE</span>
+            </span>
+          </Link>
+        </motion.div>
       </div>
-      <div className="navbar-start ml-5 hidden lg:flex">
+      <motion.div
+        initial={{ opacity: 0.2, y: -100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
+        className="navbar-start ml-5 hidden lg:flex"
+      >
         <ul className="menu menu-horizontal px-1 flex gap-3 navlinks">
           {links}
         </ul>
-      </div>
-      <div className="navbar-end gap-2">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0.2, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
+        className="navbar-end gap-2"
+      >
         {user ? (
           <>
-            <div onClick={() => navigate("/profile")} className=" flex justify-center items-center gap-2 p-1 pr-2 cursor-pointer border border-gray-200 rounded-xl">
+            <motion.div
+              whileHover={{ scale: 1.05, y: -3 }}
+              whileTap={{ scale: 0.8, y: 1 }}
+              transition={{ type: "spring", stiffness: 500 }}
+              onClick={() => navigate("/profile")}
+              className=" flex justify-center items-center gap-2 p-1 pr-2 cursor-pointer border border-gray-200 rounded-xl"
+            >
               <img
                 src={user.photoURL}
                 className="w-8 rounded-lg"
                 alt="userImage"
               />
               <p>{user.displayName}</p>
-            </div>
-            <button className=" cursor-pointer btn rounded-xl p-1" onClick={handleSignOut}>
+            </motion.div>
+            <motion.button
+              whileHover={{ scale: 1.05, y: -3 }}
+              whileTap={{ scale: 0.8, y: 1 }}
+              transition={{ type: "spring", stiffness: 500 }}
+              className=" cursor-pointer btn rounded-xl p-1"
+              onClick={handleSignOut}
+            >
               Sign Out
-            </button>
+            </motion.button>
           </>
         ) : (
           <>
-            <Link
-              to={"/login"}
-              className="btn bg-violet-100 text-violet-800 border-0 rounded-xl"
+            <motion.div
+              whileHover={{ scale: 1.05, y: -3 }}
+              whileTap={{ scale: 0.8, y: 1 }}
+              transition={{ type: "spring", stiffness: 500 }}
             >
-              Login
-            </Link>
-            <Link
-              to={"/register"}
-              className="btn text-white bg-violet-600 border-0 rounded-xl"
+              <Link
+                to={"/login"}
+                className="btn bg-violet-100 text-violet-800 border-0 rounded-xl"
+              >
+                Login
+              </Link>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ scale: 1.05, y: -3 }}
+              whileTap={{ scale: 0.8, y: 1 }}
+              transition={{ type: "spring", stiffness: 500 }}
             >
-              Create Account
-            </Link>
+              <Link
+                to={"/register"}
+                className="btn text-white bg-violet-600 border-0 rounded-xl"
+              >
+                Create Account
+              </Link>
+            </motion.div>
           </>
         )}
-      </div>
+      </motion.div>
     </nav>
   );
 };

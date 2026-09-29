@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <div className="">
       
-        <div className=" bg-white space-y-3 px-10 w-2/5 mx-auto rounded-2xl py-5">
+        <div className=" ">
              <Outlet/>
         </div>
       

@@ -9,6 +9,7 @@ import {
   signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
+  updatePassword,
   updateProfile,
 } from "firebase/auth";
 const AuthProvider = ({ children }) => {
@@ -54,6 +55,10 @@ const AuthProvider = ({ children }) => {
   const resetPassword = (email)=>{
     return sendPasswordResetEmail(auth , email)
   }
+  // update password 
+  const handleUpdatePassword = (user,newPassword)=> {
+    return updatePassword(user,newPassword)
+  }
   //   set context value in this object
   const userIno = {
     handleUserSignInWithGoogle,
@@ -63,7 +68,8 @@ const AuthProvider = ({ children }) => {
     handleEmailPasswordLogin,
     handleCreateUserWithEmailAndPassword,
     updateUserProfile,
-    resetPassword
+    resetPassword,
+    handleUpdatePassword
   };
 
   return <AuthContext value={userIno}>{children}</AuthContext>;

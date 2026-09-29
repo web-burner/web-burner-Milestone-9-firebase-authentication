@@ -11,6 +11,8 @@ import Profile from "../Layout/Profile";
 import ProfileEdit from "../Component/ProfileEdit";
 import ProfileSettings from "../Component/ProfileSettings";
 import ForgotPassword from "../Layout/ForgotPassword";
+import ErrorPage from "../Layout/ErrorPage";
+import UpdatePassword from "../Layout/UpdatePassword";
 
 export const router = createBrowserRouter([
   {
@@ -65,13 +67,16 @@ export const router = createBrowserRouter([
           {
             path: "/profile/edit",
             Component: ProfileEdit,
-          },
+          },{
+            path: "/profile/updatePassword",
+            Component: UpdatePassword
+          }
         ],
       },
     ],
   },
   {
     path: "*",
-    element: <h1>404 Page Not Found</h1>,
+    Component: ErrorPage,
   },
 ]);

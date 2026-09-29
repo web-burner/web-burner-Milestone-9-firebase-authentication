@@ -2,20 +2,26 @@ import { use } from "react";
 import { FaStar } from "react-icons/fa";
 import { useNavigate } from "react-router";
 import { AuthContext } from "../Auth/AuthContext";
+import { motion } from "motion/react";
 const TopRatedApp = ({ app }) => {
   const { user } = use(AuthContext);
   const { id, title, coverPhoto, category, ratings, developer } = app;
   const navigate = useNavigate();
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0.2, scale: 1.4 }}
+      animate={{ opacity: 1, scale: 1 }}
+      whileHover={{scale: 1.05, }}
+            transition={{ duration: 0.4 ,ease: "easeIn", type: 'spring', stiffness: 200}}
+
       onClick={() =>
         user
           ? navigate(`/gameDetails/${id}`, {
               state: `${title} by ${developer}`,
             })
-          : navigate("/login" ,{state: `/gameDetails/${id}`})
+          : navigate("/login", { state: `/gameDetails/${id}` })
       }
-      className="rounded-2xl border border-gray-300 bg-white hover:-translate-y-2 duration-200 ease-in-out hover:shadow-2xl"
+      className="rounded-2xl border border-gray-300 bg-white "
     >
       <figure>
         <img
@@ -34,7 +40,7 @@ const TopRatedApp = ({ app }) => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

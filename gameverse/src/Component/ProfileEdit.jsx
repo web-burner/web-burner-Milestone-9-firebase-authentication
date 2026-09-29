@@ -9,7 +9,7 @@ const ProfileEdit = () => {
     e.preventDefault()
   }
   return (
-    <>
+    <div  className=" bg-white space-y-3 px-10 w-2/5 mx-auto rounded-2xl py-5">
       <p className=" text-3xl font-bold text-center mb-4">Edit Profile</p>
       <div className=" flex flex-col justify-center items-center gap-2  ">
         <figure>
@@ -60,7 +60,7 @@ const ProfileEdit = () => {
           </div>
         </form>
       </div>
-    </>
+    </div>
   );
 };
 
