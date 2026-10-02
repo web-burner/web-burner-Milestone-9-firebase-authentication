@@ -23,7 +23,7 @@ const ForgotPassword = () => {
   };
   return (
     <div className=" h-120 flex justify-center items-center">
-      <div className=" w-2/5 mx-auto bg-white p-10 rounded-2xl ">
+      <div className=" md:w-2/5 md:mx-auto mx-3 bg-white md:p-10 p-3 rounded-2xl ">
         <h1 className=" text-2xl font-bold text-center mb-10">
           Change Password
         </h1>

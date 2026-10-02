@@ -5,7 +5,7 @@ import { AuthContext } from "../Auth/AuthContext";
 import { motion } from "motion/react";
 const TopRatedApp = ({ app }) => {
   const { user } = use(AuthContext);
-  const { id, title, coverPhoto, category, ratings, developer } = app;
+  const { id, title, coverPhoto, category, ratings, developer, } = app;
   const navigate = useNavigate();
   return (
     <motion.div
@@ -26,13 +26,13 @@ const TopRatedApp = ({ app }) => {
       <figure>
         <img
           src={coverPhoto}
-          className=" h-35 rounded-t-2xl"
+          className=" h-35 rounded-2xl md:rounded-b-none md:rounded-t-2xl"
           alt={`${title} image`}
         />
       </figure>
-      <div className="p-4">
-        <h1 className=" font-bold text-lg">{title}</h1>
-        <div className=" flex justify-between items-center">
+      <div className="p-4 hidden md:block">
+        <h1 className=" font-bold text-lg">{ title }</h1>
+        <div className=" flex md:flex-row flex-col-reverse justify-between md:items-center">
           <p className=" text-gray-400">{category}</p>
           <p className=" text-yellow-500 flex  items-center gap-2">
             <FaStar />

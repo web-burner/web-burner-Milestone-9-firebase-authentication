@@ -47,14 +47,14 @@ const Register = () => {
       });
   };
   return (
-    <div className="hero bg-transparent min-h-150 px-10">
+    <div className="hero bg-transparent md:min-h-150 md:px-10">
       <title>Create GameVerse Account </title>
-      <div className="hero-content items-start flex-col px-5 py-10 rounded-2xl w-1/2">
-        <div className="card w-full p-10 bg-white">
+      <div className="hero-content items-start flex-col md:px-5 px-2 md:py-10 py-3 rounded-2xl md:w-1/2">
+        <div className="card w-full md:p-10 p-3 bg-white">
           <div className=" text-start">
             <p className="  text-[#1FD7DD] font-bold">GAMEVERSE ACCOUNT</p>
-            <h1 className="text-3xl font-bold">Create your account</h1>
-            <p className="py-2">Join a community that plays with intention.</p>
+            <h1 className="text-2xl md:text-3xl font-bold">Create your account</h1>
+            <p className="py-2 text-gray-400 text-sm">Join a community that plays with intention.</p>
           </div>
           <form
             onSubmit={createUserWithGoogle}

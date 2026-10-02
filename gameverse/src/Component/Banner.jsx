@@ -16,7 +16,7 @@ const Banner = ({ bannerContent }) => {
   }, [count]);
 
   return (
-    <div className={`w-10/12 mx-auto`}>
+    <div className={`md:w-10/12 w-11/12 mx-auto`}>
       <BannerApp
         app={bannerContent[count]}
         apps={bannerContent}

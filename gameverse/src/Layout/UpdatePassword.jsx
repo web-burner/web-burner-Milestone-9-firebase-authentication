@@ -40,10 +40,10 @@ const UpdatePassword = () => {
       });
   };
   return (
-    <div className=" h-120  w-2/5 mx-auto flex justify-center items-center">
+    <div className=" h-120 md:w-2/5 md:mx-auto mx-3 flex justify-center items-center">
       <form
         onSubmit={updatePassword}
-        className="space-y-3 bg-white px-10 rounded-2xl py-10"
+        className="md:space-y-3 space-y-1 bg-white md:p-10 p-4 rounded-2xl"
       >
         <label htmlFor="password" className="label text-black">
           Type New Password
@@ -54,6 +54,7 @@ const UpdatePassword = () => {
           name="password"
           id="password"
           placeholder="Enter New Password"
+          required
         />
         <p className="text-red-800">{error}</p>
         <input

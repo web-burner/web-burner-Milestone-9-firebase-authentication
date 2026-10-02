@@ -1,30 +1,26 @@
-import { Link,  } from "react-router";
+import { Link } from "react-router";
 
-const BannerApp = ({ app,  }) => {
-  
+const BannerApp = ({ app }) => {
   const { coverPhoto, title, description, category, downloadLink } = app;
   return (
     <div
       style={{ backgroundImage: `url(${coverPhoto})` }}
-      className=" bg-no-repeat bg-cover rounded-2xl mb-10 h-96 flex"
+      className=" bg-no-repeat bg-cover rounded-2xl mb-4 md:mb-10 md:h-96 h-56 flex"
     >
-      <div className="  flex flex-col justify-end items-start flex-1 p-5 pt-40 gap-5 text-black text-shadow-white text-shadow-lg">
-        <div className=" space-y-3">
-          <p className=" text-4xl  font-bold ">
-            {title}
-          </p>
-          <p>{description}</p>
-          <p>{category}</p>
+      <div className="  flex flex-col justify-end items-start flex-1 p-5 pt-40 gap-1 md:gap-5 text-black ">
+        <div className=" md:space-y-3 text-shadow-white text-shadow-lg">
+          <p className=" md:text-4xl  font-bold ">{title}</p>
+          <p className=" text-sm">{description}</p>
+          <p className=" text-sm">{category}</p>
         </div>
         <Link
           to={downloadLink}
           target="-blank"
-          className=" btn bg-violet-800 text-white border-0 shadow-none"
+          className=" md:btn bg-violet-800 text-white border-0 shadow-none btn-xs text-sm p-1 px-2 rounded-md"
         >
           Explore
         </Link>
       </div>
-      
     </div>
   );
 };

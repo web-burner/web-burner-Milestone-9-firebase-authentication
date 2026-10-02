@@ -7,13 +7,6 @@ import { motion } from "motion/react";
 const Navbar = () => {
   const { user, setUser, userSignOut } = use(AuthContext);
   const navigate = useNavigate();
-  const links = (
-    <>
-      <NavLink to={"/"}>Home</NavLink>
-      <NavLink to={"/discover"}>Discover</NavLink>
-      <NavLink to={"/arcade"}>Arcade Nights</NavLink>
-    </>
-  );
   const handleSignOut = () => {
     userSignOut()
       .then(() => {
@@ -26,27 +19,67 @@ const Navbar = () => {
         setUser(user);
       });
   };
+  const links = (
+    <>
+      <NavLink to={"/"}>Home</NavLink>
+      <NavLink to={"/discover"}>Discover</NavLink>
+      <NavLink to={"/arcade"}>Arcade Nights</NavLink>
+      {user ? (
+        <Link onClick={handleSignOut}>Sign Out</Link>
+      ) : (
+        <>
+          <NavLink className={"md:hidden"} to={"/register"}>
+            Create Account
+          </NavLink>
+          <NavLink className={"md:hidden"} to={"/login"}>
+            Login
+          </NavLink>
+        </>
+      )}
+    </>
+  );
+
   return (
-    <nav className="navbar p-5 w-11/12 mx-auto ">
-      <div className="navbar-start w-auto">
+    <nav className="navbar p-2 md:p-5 md:w-11/12 mx-auto justify-between ">
+      <div className="navbar-start justify-between w-auto">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <svg
-              aria-label="Menu"
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              {" "}
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
-            </svg>
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost px-1 lg:hidden"
+          >
+            {!user ? (
+              <svg
+                aria-label="Menu"
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 md:hidden"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                {" "}
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />{" "}
+              </svg>
+            ) : (
+              <motion.div
+                whileHover={{ scale: 1.05, y: -3 }}
+                whileTap={{ scale: 0.8, y: 1 }}
+                transition={{ type: "spring", stiffness: 500 }}
+                onClick={() => navigate("/profile")}
+                className="md:hidden flex justify-center items-center gap-2 p-1 pr-1 cursor-pointer border border-gray-200 rounded-xl"
+              >
+                <img
+                  src={user?.photoURL}
+                  className="w-8 rounded-lg"
+                  alt="userImage"
+                />
+              </motion.div>
+            )}
           </div>
           <ul
             tabIndex={-1}
@@ -71,7 +104,7 @@ const Navbar = () => {
         initial={{ opacity: 0.2, y: -100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="navbar-start ml-5 hidden lg:flex"
+        className="navbar-start justify-between w-auto ml-5 hidden lg:flex"
       >
         <ul className="menu menu-horizontal px-1 flex gap-3 navlinks">
           {links}
@@ -81,7 +114,7 @@ const Navbar = () => {
         initial={{ opacity: 0.2, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="navbar-end gap-2"
+        className="navbar-end w-auto gap-2"
       >
         {user ? (
           <>
@@ -90,27 +123,26 @@ const Navbar = () => {
               whileTap={{ scale: 0.8, y: 1 }}
               transition={{ type: "spring", stiffness: 500 }}
               onClick={() => navigate("/profile")}
-              className=" flex justify-center items-center gap-2 p-1 pr-2 cursor-pointer border border-gray-200 rounded-xl"
+              className="hidden md:flex justify-center items-center gap-2 p-1 pr-1 cursor-pointer border border-gray-200 rounded-xl"
             >
               <img
                 src={user?.photoURL}
                 className="w-8 rounded-lg"
                 alt="userImage"
               />
-              <p>{user?.displayName}</p>
             </motion.div>
             <motion.button
               whileHover={{ scale: 1.05, y: -3 }}
               whileTap={{ scale: 0.8, y: 1 }}
               transition={{ type: "spring", stiffness: 500 }}
-              className=" cursor-pointer btn rounded-xl p-1"
+              className=" hidden md:block cursor-pointer btn rounded-xl p-1"
               onClick={handleSignOut}
             >
               Sign Out
             </motion.button>
           </>
         ) : (
-          <>
+          <div className=" hidden md:flex md:gap-2">
             <motion.div
               whileHover={{ scale: 1.05, y: -3 }}
               whileTap={{ scale: 0.8, y: 1 }}
@@ -136,7 +168,7 @@ const Navbar = () => {
                 Create Account
               </Link>
             </motion.div>
-          </>
+          </div>
         )}
       </motion.div>
     </nav>

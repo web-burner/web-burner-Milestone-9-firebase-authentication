@@ -1,15 +1,15 @@
 const SubscriptionBar = () => {
   return (
-    <div className=" h-60 w-10/12 mx-auto flex justify-center items-center bg-linear-to-l from-teal-200 to-violet-200 gap-5 mt-12 rounded-2xl">
-      <div className=" w-1/3">
+    <div className=" h-60 w-11/12 md:w-10/12 mx-auto flex md:flex-row flex-col md:justify-center md:items-center bg-linear-to-l from-teal-200 to-violet-200 gap-5 mt-12 rounded-2xl p-5">
+      <div className=" md:w-1/3 ">
         <p className="text-[#1FD7DD]">Weekly Drop</p>
-        <h2 className=" text-2xl font-bold">Good Games, Delivered.</h2>
+        <h2 className=" text-lg md:text-2xl font-bold">Good Games, Delivered.</h2>
         <p className=" text-gray-500">
           One thoughtful email every Friday: hand-picked new releases, co-op
           finds, and hidden gems.
         </p>
       </div>
-      <div className=" w-1/3">
+      <div className=" md:w-1/3 ">
         <div className="join">
           <div>
             <label className="input validator join-item border border-violet-500">

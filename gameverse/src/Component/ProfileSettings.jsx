@@ -1,4 +1,4 @@
-import {  useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 import {
   CiSettings,
   CiShoppingCart,
@@ -9,13 +9,27 @@ import {
 import { use } from "react";
 import { AuthContext } from "../Auth/AuthContext";
 import Spinner from "./Spinner";
+import { toast } from "react-toastify";
 
 const ProfileSettings = () => {
-  const { user } = use(AuthContext);
-  const {displayName,photoURL} = user;
+  const { user, userSignOut, setUser } = use(AuthContext);
+  const { displayName, photoURL } = user;
   const navigate = useNavigate();
-  return (!user  ? <Spinner/> :
-    <div className=" bg-white space-y-3 px-10 w-2/5 mx-auto rounded-2xl py-5">
+  const handleSignOut = () => {
+    userSignOut()
+      .then(() => {
+        setUser(null);
+        toast("User Logged Out Successfully!");
+        navigate("/login");
+      })
+      .catch(() => {
+        setUser(user);
+      });
+  };
+  return !user ? (
+    <Spinner />
+  ) : (
+    <div className=" bg-white space-y-3 mx-3 md:px-10 px-4 md:w-2/5 md:mx-auto rounded-2xl py-5">
       <p className=" text-3xl font-bold text-center mb-4">Profile</p>
       <div className=" flex flex-col justify-center items-center gap-2  ">
         <figure>
@@ -57,7 +71,10 @@ const ProfileSettings = () => {
           <CiCircleQuestion />
           <span>Help & support</span>
         </button>
-        <button className=" cursor-pointer hover:text-violet-800 flex gap-1 items-center">
+        <button
+          onClick={handleSignOut}
+          className=" cursor-pointer hover:text-violet-800 flex gap-1 items-center"
+        >
           <CiLogout className=" rotate-180" />
           <span>Log Out</span>
         </button>

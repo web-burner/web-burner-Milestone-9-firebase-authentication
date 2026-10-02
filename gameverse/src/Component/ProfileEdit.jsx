@@ -21,8 +21,8 @@ const ProfileEdit = () => {
       });
   };
   return (
-    <div className=" bg-white space-y-3 px-10 w-2/5 mx-auto rounded-2xl py-5">
-      <p className=" text-3xl font-bold text-center mb-4">Edit Profile</p>
+    <div className=" bg-white space-y-3 px-3 md:px-10 md:w-2/5 md:mx-auto mx-3 rounded-2xl py-5">
+      <p className=" text-3xl font-bold text-center mb-4">Update Profile</p>
       <div className=" flex flex-col justify-center items-center gap-2  ">
         <figure>
           <img
@@ -45,6 +45,7 @@ const ProfileEdit = () => {
             name="name"
             className="input w-full"
             placeholder="Name"
+            required
           />
 
           {/* photo url */}
@@ -54,9 +55,10 @@ const ProfileEdit = () => {
             name="image"
             className=" input w-full"
             placeholder="Photo"
+            required
           />
           <div className=" flex justify-between gap-2">
-            <button className="btn flex-1 " onClick={() => navigate(-1)}>
+            <button className="btn flex-1" type="button" onClick={() => navigate(-1)}>
               Go Back
             </button>
             <button

@@ -10,7 +10,7 @@ const Root = () => {
       <div className=" border-b border-gray-400 sticky top-0 bg-white z-50">
         <Navbar />
       </div>
-      <div className=" bg-[#f0ebff8b] py-12">
+      <div className=" bg-[#f0ebff8b] py-3 md:py-12">
         {location.state !== "idle" ? <Spinner /> : <Outlet />}
       </div>
       <div>
