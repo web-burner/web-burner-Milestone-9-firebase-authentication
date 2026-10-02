@@ -1,6 +1,7 @@
 import { use, useState } from "react";
 import { Link } from "react-router";
 import { AuthContext } from "../Auth/AuthContext";
+import { toast } from "react-toastify";
 
 const Register = () => {
   const { handleCreateUserWithEmailAndPassword, setUser, updateUserProfile } =
@@ -37,12 +38,12 @@ const Register = () => {
           .then((currentUser) => {
             setUser({ ...currentUser, displayName: name, photoURL: imageUrl });
           })
-          .catch((err) => {
-            console.log(err);
+          .catch(() => {
+        toast('Invalid Credentials');
           });
       })
-      .catch((err) => {
-        console.log(err);
+      .catch(() => {
+        toast('Invalid Credentials');
       });
   };
   return (

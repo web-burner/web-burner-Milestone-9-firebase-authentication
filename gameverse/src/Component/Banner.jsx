@@ -15,8 +15,6 @@ const Banner = ({ bannerContent }) => {
     return () => clearInterval(interval);
   }, [count]);
 
-  console.log(count);
-
   return (
     <div className={`w-10/12 mx-auto`}>
       <BannerApp

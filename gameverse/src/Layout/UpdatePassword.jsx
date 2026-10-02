@@ -35,8 +35,8 @@ const UpdatePassword = () => {
         toast("Password updated successfully");
         navigate("/profile");
       })
-      .catch((err) => {
-        console.log(err);
+      .catch(() => {
+        toast('Invalid Credentials');
       });
   };
   return (

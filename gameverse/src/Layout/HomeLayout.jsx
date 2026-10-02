@@ -6,6 +6,7 @@ import {motion} from 'motion/react';
 
 const HomeLayout = () => {
     const data = useLoaderData()
+    
     const bannerContent = data.sort((a,b) =>b.ratings- a.ratings).slice(0,3)
     const topRated = data.sort((a,b) =>b.ratings- a.ratings).slice(0,4)
     return (

@@ -8,7 +8,7 @@ const BannerApp = ({ app,  }) => {
       style={{ backgroundImage: `url(${coverPhoto})` }}
       className=" bg-no-repeat bg-cover rounded-2xl mb-10 h-96 flex"
     >
-      <div className="  flex flex-col justify-end items-start flex-1 p-5 pt-40 gap-5 text-white text-shadow-black text-shadow-lg">
+      <div className="  flex flex-col justify-end items-start flex-1 p-5 pt-40 gap-5 text-black text-shadow-white text-shadow-lg">
         <div className=" space-y-3">
           <p className=" text-4xl  font-bold ">
             {title}

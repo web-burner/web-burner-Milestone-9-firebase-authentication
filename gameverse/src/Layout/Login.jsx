@@ -21,8 +21,8 @@ const Login = () => {
         setUser(result.user);
         navigate(location || "/");
       })
-      .catch((err) => {
-        toast(err);
+      .catch(() => {
+        toast('Invalid Credentials');
       });
   };
   const handleSignInWithEmailAndPassword = (e) => {
@@ -57,8 +57,8 @@ const Login = () => {
           setUser(result.user);
           navigate(location || "/");
         })
-        .catch((err) => {
-          console.log(err);
+        .catch(() => {
+        toast('Invalid Credentials');
         });
     }
   };

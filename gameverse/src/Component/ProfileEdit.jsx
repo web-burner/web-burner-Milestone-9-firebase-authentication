@@ -1,6 +1,7 @@
 import { use } from "react";
 import { useNavigate } from "react-router";
 import { AuthContext } from "../Auth/AuthContext";
+import { toast } from "react-toastify";
 
 const ProfileEdit = () => {
   const { user, updateUserProfile, setUser } = use(AuthContext);
@@ -14,8 +15,9 @@ const ProfileEdit = () => {
         setUser({ ...currentUser, displayName: name, photoURL: imageUrl });
         navigate('/profile')
       })
-      .catch((err) => {
-        console.log(err);
+      .catch(() => {
+        toast('Invalid Credentials');
+
       });
   };
   return (

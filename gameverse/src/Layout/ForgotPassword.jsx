@@ -17,8 +17,8 @@ const ForgotPassword = () => {
         e.target.email.value = "";
         navigate(location.state || '/')
       })
-      .catch((err) => {
-        console.log(err);
+      .catch(() => {
+        toast('Invalid Credentials');
       });
   };
   return (
