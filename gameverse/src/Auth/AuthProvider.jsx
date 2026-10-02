@@ -14,6 +14,9 @@ import {
 } from "firebase/auth";
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const [loading , setLoading] = useState(false)
+
+ 
   //   user sign with google
   const googleProvider = new GoogleAuthProvider();
   const handleUserSignInWithGoogle = () => {
@@ -29,6 +32,7 @@ const AuthProvider = ({ children }) => {
   useEffect(() => {
     const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
+      setLoading(true)
     });
     return () => unSubscribe();
   }, []);
@@ -69,7 +73,8 @@ const AuthProvider = ({ children }) => {
     handleCreateUserWithEmailAndPassword,
     updateUserProfile,
     resetPassword,
-    handleUpdatePassword
+    handleUpdatePassword,
+    loading
   };
 
   return <AuthContext value={userIno}>{children}</AuthContext>;

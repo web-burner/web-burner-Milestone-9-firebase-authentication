@@ -3,7 +3,6 @@ import TopRatedApp from "./TopRatedApp";
 import {motion} from 'motion/react'
 
 const TopRated = ({topRated}) => {
-    console.log(topRated)
     return (
         <div className=" w-10/12 mx-auto space-y-5">
             <div className=" flex justify-between items-center">

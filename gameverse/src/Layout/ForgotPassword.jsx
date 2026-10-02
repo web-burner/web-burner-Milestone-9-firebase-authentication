@@ -7,7 +7,6 @@ const ForgotPassword = () => {
   const { resetPassword } = use(AuthContext);
   const location = useLocation()
   const navigate = useNavigate();
-  console.log(location)
   const handleReset = (e) => {
     e.preventDefault();
     const email = e.target.email.value;

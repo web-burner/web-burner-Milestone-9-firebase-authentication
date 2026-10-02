@@ -1,11 +1,28 @@
+import { useState } from "react";
 import BannerApp from "./BannerApp";
+import { useEffect } from "react";
 
 const Banner = ({ bannerContent }) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCount(count + 1);
+      if (count === 2) {
+        setCount(0);
+      }
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [count]);
+
+  console.log(count);
+
   return (
-    <div className=" h-100 flex">
-      {bannerContent.map((app) => (
-        <BannerApp key={app.id} app={app} />
-      ))}
+    <div className={`w-10/12 mx-auto`}>
+      <BannerApp
+        app={bannerContent[count]}
+        apps={bannerContent}
+      />
     </div>
   );
 };

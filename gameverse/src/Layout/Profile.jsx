@@ -1,15 +1,14 @@
-
+import { use } from "react";
 import { Outlet } from "react-router";
+import { AuthContext } from "../Auth/AuthContext";
+import Spinner from "../Component/Spinner";
 
 const Profile = () => {
+  const { loading } = use(AuthContext);
 
   return (
     <div className="">
-      
-        <div className=" ">
-             <Outlet/>
-        </div>
-      
+      <div>{!loading ? <Spinner /> : <Outlet />}</div>
     </div>
   );
 };

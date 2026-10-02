@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router";
+import {  useNavigate } from "react-router";
 import {
   CiSettings,
   CiShoppingCart,
@@ -8,26 +8,26 @@ import {
 } from "react-icons/ci";
 import { use } from "react";
 import { AuthContext } from "../Auth/AuthContext";
+import Spinner from "./Spinner";
 
 const ProfileSettings = () => {
-  const { user,  } = use(AuthContext);
-  console.log(location);
-
+  const { user } = use(AuthContext);
+  const {displayName,photoURL} = user;
   const navigate = useNavigate();
-  return (
+  return (!user  ? <Spinner/> :
     <div className=" bg-white space-y-3 px-10 w-2/5 mx-auto rounded-2xl py-5">
       <p className=" text-3xl font-bold text-center mb-4">Profile</p>
       <div className=" flex flex-col justify-center items-center gap-2  ">
         <figure>
           <img
-            src={user.photoURL}
+            src={photoURL}
             className=" rounded-full w-30 h-30 outline-2 outline-offset-1"
             alt="Profile image"
           />
         </figure>
         <div className=" text-center">
-          <p className=" text-3xl font-bold">{user.displayName}</p>
-          <p className=" text-gray-400">{user.email}</p>
+          <p className=" text-3xl font-bold">{displayName}</p>
+          <p className=" text-gray-400">{user?.email}</p>
         </div>
       </div>
       <div className=" flex justify-center border-b pb-3.5 border-gray-200">

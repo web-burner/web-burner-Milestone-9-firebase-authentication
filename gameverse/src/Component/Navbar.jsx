@@ -93,11 +93,11 @@ const Navbar = () => {
               className=" flex justify-center items-center gap-2 p-1 pr-2 cursor-pointer border border-gray-200 rounded-xl"
             >
               <img
-                src={user.photoURL}
+                src={user?.photoURL}
                 className="w-8 rounded-lg"
                 alt="userImage"
               />
-              <p>{user.displayName}</p>
+              <p>{user?.displayName}</p>
             </motion.div>
             <motion.button
               whileHover={{ scale: 1.05, y: -3 }}

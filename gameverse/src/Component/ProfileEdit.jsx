@@ -14,14 +14,14 @@ const ProfileEdit = () => {
       <div className=" flex flex-col justify-center items-center gap-2  ">
         <figure>
           <img
-            src={user.photoURL}
+            src={user?.photoURL}
             className=" rounded-full w-30 h-30 outline-2 outline-offset-1"
             alt="Profile image"
           />
         </figure>
         <div className=" text-center">
-          <p className=" text-3xl font-bold">{user.displayName}</p>
-          <p className=" text-gray-400">{user.email}</p>
+          <p className=" text-3xl font-bold">{user?.displayName}</p>
+          <p className=" text-gray-400">{user?.email}</p>
         </div>
       </div>
       <div>

@@ -7,18 +7,18 @@ import GameDetails from "../Component/GameDetails";
 import Login from "../Layout/Login";
 import Register from "../Layout/Register";
 import PrivateRoutes from "./PrivateRoutes";
-import Profile from "../Layout/Profile";
 import ProfileEdit from "../Component/ProfileEdit";
 import ProfileSettings from "../Component/ProfileSettings";
 import ForgotPassword from "../Layout/ForgotPassword";
 import ErrorPage from "../Layout/ErrorPage";
 import UpdatePassword from "../Layout/UpdatePassword";
+import Spinner from "../Component/Spinner";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
-    hydrateFallbackElement: <p>Loading...</p>,
+    hydrateFallbackElement: <Spinner />,
     children: [
       {
         index: true,
@@ -51,27 +51,34 @@ export const router = createBrowserRouter([
       {
         path: "register",
         Component: Register,
-      },{
-        path:'forgotPassword',
+      },
+      {
+        path: "forgotPassword",
         Component: ForgotPassword
       },
       {
-        path: "profile",
+        path: "/profile",
         element: (
           <PrivateRoutes>
-            <Profile />
+            <ProfileSettings />
           </PrivateRoutes>
         ),
-        children: [
-          { index: true, Component: ProfileSettings },
-          {
-            path: "/profile/edit",
-            Component: ProfileEdit,
-          },{
-            path: "/profile/updatePassword",
-            Component: UpdatePassword
-          }
-        ],
+      },
+      {
+        path: "/profile/edit",
+        element: (
+          <PrivateRoutes>
+            <ProfileEdit />
+          </PrivateRoutes>
+        ),
+      },
+      {
+        path: "/profile/updatePassword",
+        element: (
+          <PrivateRoutes>
+            <UpdatePassword />
+          </PrivateRoutes>
+        ),
       },
     ],
   },
