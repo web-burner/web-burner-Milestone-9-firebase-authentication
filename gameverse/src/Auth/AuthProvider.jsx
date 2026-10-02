@@ -63,6 +63,8 @@ const AuthProvider = ({ children }) => {
   const handleUpdatePassword = (user,newPassword)=> {
     return updatePassword(user,newPassword)
   }
+
+  
   //   set context value in this object
   const userIno = {
     handleUserSignInWithGoogle,

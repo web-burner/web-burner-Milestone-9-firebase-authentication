@@ -3,13 +3,23 @@ import { useNavigate } from "react-router";
 import { AuthContext } from "../Auth/AuthContext";
 
 const ProfileEdit = () => {
-  const { user } = use(AuthContext);
+  const { user, updateUserProfile, setUser } = use(AuthContext);
   const navigate = useNavigate();
-  const handleSubmit = (e)=> {
-    e.preventDefault()
-  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const name = e.target.name.value;
+    const imageUrl = e.target.image.value;
+    updateUserProfile(name, imageUrl)
+      .then((currentUser) => {
+        setUser({ ...currentUser, displayName: name, photoURL: imageUrl });
+        navigate('/profile')
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
   return (
-    <div  className=" bg-white space-y-3 px-10 w-2/5 mx-auto rounded-2xl py-5">
+    <div className=" bg-white space-y-3 px-10 w-2/5 mx-auto rounded-2xl py-5">
       <p className=" text-3xl font-bold text-center mb-4">Edit Profile</p>
       <div className=" flex flex-col justify-center items-center gap-2  ">
         <figure>
@@ -26,35 +36,31 @@ const ProfileEdit = () => {
       </div>
       <div>
         <form className="fieldset" onSubmit={handleSubmit}>
+          {/* name */}
           <label className="label">Name</label>
-          <input type="text" className="input w-full" placeholder="Name" />
-          <div>
-            <label className="label">Gender</label>
-            <label className="label">Date Of Birth</label>
-            <input type="date" className="input w-full" placeholder="Name" />
-          </div>
+          <input
+            type="text"
+            name="name"
+            className="input w-full"
+            placeholder="Name"
+          />
+
+          {/* photo url */}
           <label className="label">Photo URL</label>
           <input
             type="text"
+            name="image"
             className=" input w-full"
             placeholder="Photo"
           />
-          <label className="label">Phone</label>
-          <input type="phone" className="input w-full" placeholder="Phone" />
-          <label className="label">Email</label>
-          <input type="email" className="input w-full" placeholder="Email" />
-          <label className="label">Password</label>
-          <input
-            type="password"
-            className="input w-full"
-            placeholder="Password"
-          />
-
           <div className=" flex justify-between gap-2">
             <button className="btn flex-1 " onClick={() => navigate(-1)}>
               Go Back
             </button>
-            <button className="btn flex-1 bg-violet-800 text-white">
+            <button
+              onClick={() => updateUserProfile}
+              className="btn flex-1 bg-violet-800 text-white"
+            >
               Save
             </button>
           </div>
