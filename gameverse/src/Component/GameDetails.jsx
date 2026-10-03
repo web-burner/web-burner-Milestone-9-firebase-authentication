@@ -24,7 +24,7 @@ const GameDetails = () => {
   const navigate = useNavigate();
   const path = useLocation().state;
   return (
-    <div className=" h-120 md:p-10 p-3 rounded-2xl bg-base-100 shadow-sm w-11/12 md:w-10/12 mx-auto">
+    <div className=" min-h-120 md:p-10 p-3 rounded-2xl bg-base-100 shadow-sm w-11/12 md:w-10/12 mx-auto">
       <title>{path}</title>
       <figure className=" mb-5">
         <img
