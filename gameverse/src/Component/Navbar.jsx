@@ -25,7 +25,7 @@ const Navbar = () => {
       <NavLink to={"/discover"}>Discover</NavLink>
       <NavLink to={"/arcade"}>Arcade Nights</NavLink>
       {user ? (
-        <Link onClick={handleSignOut}>Sign Out</Link>
+        <Link className="md:hidden" onClick={handleSignOut}>Sign Out</Link>
       ) : (
         <>
           <NavLink className={"md:hidden"} to={"/register"}>
@@ -104,7 +104,7 @@ const Navbar = () => {
         initial={{ opacity: 0.2, y: -100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="navbar-start justify-between w-auto ml-5 hidden lg:flex"
+        className="navbar-start justify-between w-auto ml-5 hidden md:flex"
       >
         <ul className="menu menu-horizontal px-1 flex gap-3 navlinks">
           {links}

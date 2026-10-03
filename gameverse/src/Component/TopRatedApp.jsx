@@ -21,12 +21,12 @@ const TopRatedApp = ({ app }) => {
             })
           : navigate("/login", { state: `/gameDetails/${id}` })
       }
-      className="rounded-2xl border border-gray-300 bg-white "
+      className=" rounded-lg md:rounded-2xl border border-gray-300 bg-white "
     >
       <figure>
         <img
           src={coverPhoto}
-          className=" h-35 rounded-2xl md:rounded-b-none md:rounded-t-2xl"
+          className=" h-35 rounded-lg md:rounded-2xl md:rounded-b-none md:rounded-t-2xl"
           alt={`${title} image`}
         />
       </figure>

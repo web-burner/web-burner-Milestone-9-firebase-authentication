@@ -15,7 +15,7 @@ const TopRated = ({topRated}) => {
                 </div>
             </div>
             <motion.div
-             className=" grid md:grid-cols-4 grid-cols-2 gap-4">
+             className=" grid md:grid-cols-3 grid-cols-2 gap-4">
                 {
                     topRated.map(app => {
                         const trimTitle = app.title.slice(0,11)
