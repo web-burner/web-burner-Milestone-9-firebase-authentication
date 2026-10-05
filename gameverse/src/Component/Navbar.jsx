@@ -26,9 +26,9 @@ const Navbar = () => {
       <NavLink to={"/arcade"}>Arcade Nights</NavLink>
       {user ? (
         <>
-          <Link className="md:hidden" to={'/profile'}>
+          <NavLink className="md:hidden" to={'/profile'}>
             Profile
-          </Link>
+          </NavLink>
           <Link className="md:hidden" onClick={handleSignOut}>
             Sign Out
           </Link>

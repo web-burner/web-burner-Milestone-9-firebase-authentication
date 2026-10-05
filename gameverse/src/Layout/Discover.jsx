@@ -15,7 +15,7 @@ const Discover = () => {
       >
         <h1 className=" text-4xl font-bold">Discover worlds worth playing</h1>
       </motion.div>
-      <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 md:gap-4 mt-5 md:mt-10">
+      <div className=" grid grid-cols-2 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 md:gap-4 mt-5 md:mt-10">
         {apps.map((app) => {
           const trimTitle = app.title.slice(0, 11);
           return <TopRatedApp app={app} key={app.id} trimTitle={trimTitle} />;

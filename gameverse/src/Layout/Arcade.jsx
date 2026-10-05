@@ -32,7 +32,7 @@ const Arcade = () => {
       </div>
       <div>
         <p className=" text-xl md:text-2xl font-bold my-5">Quick-play favorites</p>
-        <div className=" grid md:grid-cols-4 grid-cols-2 gap-4">
+        <div className=" grid sm:grid-cols-4 md:grid-cols-4 grid-cols-2 gap-4">
           {apps.map((app) => (
             <TopRatedApp app={app} key={app.id} />
           ))}

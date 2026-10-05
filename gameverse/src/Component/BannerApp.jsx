@@ -15,8 +15,8 @@ const BannerApp = ({ app }) => {
         </div>
         <Link
           to={downloadLink}
-          target="-blank"
-          className=" md:btn bg-violet-800 text-white border-0 shadow-none btn-xs text-sm p-1 px-2 rounded-md"
+          target="_blank"
+          className="bg-violet-800 text-white border-0 shadow-none btn-xs text-sm p-1 px-2 rounded-md md:px-3 md:py-2"
         >
           Explore
         </Link>

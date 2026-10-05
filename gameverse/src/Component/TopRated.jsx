@@ -15,11 +15,10 @@ const TopRated = ({topRated}) => {
                 </div>
             </div>
             <motion.div
-             className=" grid md:grid-cols-3 grid-cols-2 gap-4">
+             className=" grid sm:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4">
                 {
                     topRated.map(app => {
                         const trimTitle = app.title.slice(0,11)
-                        console.log(trimTitle)
                         return <TopRatedApp app={app} key={app.id} trimTitle={trimTitle}/>
                     })
                 }
