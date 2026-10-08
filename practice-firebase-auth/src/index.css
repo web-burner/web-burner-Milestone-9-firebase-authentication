@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+ @plugin "daisyui" {
+   themes: light --default;
+ };
+
+ nav li a.active {
+  color: green;
+  text-decoration: underline;
+ }

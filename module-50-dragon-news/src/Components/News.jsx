@@ -4,15 +4,16 @@ import { FaEye } from "react-icons/fa";
 import { IoMdShare } from "react-icons/io";
 import { useNavigate } from "react-router";
 const News = ({ news }) => {
-  const { author, title, image_url, details, rating, total_view } = news;
+  const { id,author, title, image_url, details, rating, total_view } = news;
   const star = [];
   for (let i = 0; i < rating.number; i++) {
     star.push(<FaStar key={i} />);
   }
+  
 
   const navigate = useNavigate();
   const handleDetails = () => {
-    navigate("/newsDetails", { state: news });
+    navigate(`/newsDetails/${id}`);
   };
   const publishDate = new Date(author.published_date).toLocaleDateString();
   return (
@@ -44,7 +45,7 @@ const News = ({ news }) => {
         {details.length > 160 ? (
           <p>
             {details.slice(0, 161)}...
-            <span onClick={handleDetails}>Read More</span>
+            <span onClick={handleDetails} className=" cursor-pointer underline">Read More</span>
           </p>
         ) : (
           <p>{details}</p>

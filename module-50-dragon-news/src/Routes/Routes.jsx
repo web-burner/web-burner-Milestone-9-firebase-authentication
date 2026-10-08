@@ -5,7 +5,10 @@ import News from "../layouts/News";
 import Home from "../Components/Home";
 import CategoryNews from "../Components/CategoryNews";
 import axios from "axios";
-import NewsDetails from "../Components/newsDetails";
+import Login from "../Components/Login";
+import Register from "../Components/Register";
+import NewsDetails from "../Components/NewsDetails";
+import PrivateRoutes from "./PrivateRoutes";
 
 const router = createBrowserRouter([
   {
@@ -24,16 +27,36 @@ const router = createBrowserRouter([
           const res = await axios.get("/news.json");
           return res.data;
         },
+        hydrateFallbackElement: <p>Loading...</p>,
+
         Component: CategoryNews,
       },
     ],
-  },{
-    path: 'newsDetails',
-    Component: NewsDetails
+  },
+  {
+    path: "/newsDetails/:id",
+    loader: () => fetch("/news.json"),
+    hydrateFallbackElement: <p>Loading...</p>,
+
+    element: (
+      <PrivateRoutes>
+        <NewsDetails />
+      </PrivateRoutes>
+    ),
   },
   {
     path: "auth",
     Component: Auth,
+    children: [
+      {
+        path: "/auth/login",
+        Component: Login,
+      },
+      {
+        path: "/auth/register",
+        Component: Register,
+      },
+    ],
   },
   {
     path: "news",

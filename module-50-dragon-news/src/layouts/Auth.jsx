@@ -1,8 +1,11 @@
+import { Outlet } from "react-router";
+import Navbar from "../Components/Navbar";
 
-const Auth = () => {
+const  Auth = () => {
     return (
         <div>
-            <h1>auth</h1>
+            <Navbar/>
+            <Outlet/>
         </div>
     );
 };
